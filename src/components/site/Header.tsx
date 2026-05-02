@@ -99,13 +99,13 @@ export const Header = () => {
         <Link
           to="/"
           className="flex items-center gap-2.5 group"
-          aria-label="Skyexchlogin home - Sky Exchange Login online cricket platform"
+          aria-label="Skyexchhub home - Sky Exchange Login online cricket platform"
         >
           <span className="relative">
             <span className="absolute inset-0 rounded-full bg-primary/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity" />
             <img
               src={logo}
-              alt="Skyexchlogin official logo - online cricket and casino platform"
+              alt="Skyexchhub official logo - online cricket and casino platform"
               width={42}
               height={42}
               className="relative h-10 w-10 object-contain transition-transform duration-300 group-hover:scale-105"

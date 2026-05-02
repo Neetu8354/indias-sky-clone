@@ -21,7 +21,7 @@ import { useEffect } from "react";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Skyexchlogin Login | Online Cricket & Casino ID | Play Fast in ₹";
+    document.title = "Skyexchhub Login | Online Cricket & Casino ID | Play Fast in ₹";
     const ensure = (sel: string, attrs: Record<string, string>) => {
       let el = document.head.querySelector(sel) as HTMLElement | null;
       if (!el) {
@@ -30,16 +30,16 @@ const Index = () => {
       }
       Object.entries(attrs).forEach(([k, v]) => el!.setAttribute(k, v));
     };
-    ensure('meta[name="description"]', { name: "description", content: "Skyexchlogin — India's trusted online sports & casino platform. Get your Sky Exchange Login ID on WhatsApp, bet on IPL & live cricket, fast withdrawal, 24x7 support." });
-    ensure('link[rel="canonical"]', { rel: "canonical", href: "https://skyexchlogin.live/" });
-    ensure('meta[property="og:title"]', { property: "og:title", content: "Skyexchlogin Login | Online Cricket & Casino ID | Play Fast in ₹" });
-    ensure('meta[property="og:description"]', { property: "og:description", content: "Get your Skyexchlogin ID instantly on WhatsApp. Live cricket betting, casino games, INR deposits & instant withdrawal. 24x7 support." });
+    ensure('meta[name="description"]', { name: "description", content: "Skyexchhub — India's trusted online sports & casino platform. Get your Sky Exchange Login ID on WhatsApp, bet on IPL & live cricket, fast withdrawal, 24x7 support." });
+    ensure('link[rel="canonical"]', { rel: "canonical", href: "https://skyexchhub.live/" });
+    ensure('meta[property="og:title"]', { property: "og:title", content: "Skyexchhub Login | Online Cricket & Casino ID | Play Fast in ₹" });
+    ensure('meta[property="og:description"]', { property: "og:description", content: "Get your Skyexchhub ID instantly on WhatsApp. Live cricket betting, casino games, INR deposits & instant withdrawal. 24x7 support." });
     ensure('meta[property="og:type"]', { property: "og:type", content: "website" });
-    ensure('meta[property="og:url"]', { property: "og:url", content: "https://skyexchlogin.live/" });
-    ensure('meta[property="og:image"]', { property: "og:image", content: "https://skyexchlogin.live/og-image.jpg" });
-    ensure('meta[name="twitter:image"]', { name: "twitter:image", content: "https://skyexchlogin.live/og-image.jpg" });
-    ensure('meta[name="twitter:title"]', { name: "twitter:title", content: "Skyexchlogin Login | Online Cricket & Casino ID | Play Fast in ₹" });
-    ensure('meta[name="twitter:description"]', { name: "twitter:description", content: "Skyexchlogin — Sky Exchange Login for online cricket betting & live casino. Instant ID on WhatsApp." });
+    ensure('meta[property="og:url"]', { property: "og:url", content: "https://skyexchhub.live/" });
+    ensure('meta[property="og:image"]', { property: "og:image", content: "https://skyexchhub.live/og-image.jpg" });
+    ensure('meta[name="twitter:image"]', { name: "twitter:image", content: "https://skyexchhub.live/og-image.jpg" });
+    ensure('meta[name="twitter:title"]', { name: "twitter:title", content: "Skyexchhub Login | Online Cricket & Casino ID | Play Fast in ₹" });
+    ensure('meta[name="twitter:description"]', { name: "twitter:description", content: "Skyexchhub — Sky Exchange Login for online cricket betting & live casino. Instant ID on WhatsApp." });
   }, []);
 
   return (
