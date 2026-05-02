@@ -5,10 +5,10 @@ import { WhatsAppButton } from "./WhatsAppButton";
 export const BlogHeader = () => (
   <header className="sticky top-0 z-50 backdrop-blur-md bg-background/85 border-b border-border">
     <div className="container flex items-center justify-between h-16 md:h-20">
-      <Link to="/" className="flex items-center gap-2" aria-label="Skyexchhub home">
+      <Link to="/" className="flex items-center gap-2" aria-label="Skyexchlive home">
         <img
           src={logo}
-          alt="Skyexchhub official logo - online cricket and casino platform"
+          alt="Skyexchlive official logo - online cricket and casino platform"
           width={42}
           height={42}
           className="h-10 w-10 object-contain"
