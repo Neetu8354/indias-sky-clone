@@ -12,26 +12,26 @@ import hero from "@/assets/hero-cricket.jpg";
 const Cricket = () => {
   useEffect(() => {
     applySeo({
-      title: "Live Cricket Betting India 2026 | IPL, T20, ODI Markets | Skyexchhub",
+      title: "Live Cricket Betting India 2026 | IPL, T20, ODI Markets | Skyexchlive",
       description:
-        "Bet on live cricket online in India — IPL 2026, T20 World Cup, ODI & Test markets on Skyexchhub. Lowest commission, fastest odds, instant ₹ withdrawals.",
-      canonical: "https://skyexchhub.live/cricket",
+        "Bet on live cricket online in India — IPL 2026, T20 World Cup, ODI & Test markets on Skyexchlive. Lowest commission, fastest odds, instant ₹ withdrawals.",
+      canonical: "https://skyexchlive.live/cricket",
       keywords:
-        "live cricket betting tips online, ipl 2026, how to bet on live cricket matches online, sports betting platform online, online sports gaming platform, skyexchhub online platform",
+        "live cricket betting tips online, ipl 2026, how to bet on live cricket matches online, sports betting platform online, online sports gaming platform, skyexchlive online platform",
       jsonLd: [
         {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "Live Cricket Betting on Skyexchhub",
-          url: "https://skyexchhub.live/cricket",
-          description: "Live cricket betting markets on Skyexchhub — IPL, T20 World Cup, ODI, Test cricket.",
+          name: "Live Cricket Betting on Skyexchlive",
+          url: "https://skyexchlive.live/cricket",
+          description: "Live cricket betting markets on Skyexchlive — IPL, T20 World Cup, ODI, Test cricket.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchhub.live/" },
-            { "@type": "ListItem", position: 2, name: "Cricket", item: "https://skyexchhub.live/cricket" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchlive.live/" },
+            { "@type": "ListItem", position: 2, name: "Cricket", item: "https://skyexchlive.live/cricket" },
           ],
         },
       ],
@@ -64,7 +64,7 @@ const Cricket = () => {
 
       <section className="relative overflow-hidden border-b border-border">
         <div className="absolute inset-0">
-          <img src={hero} alt="Live cricket betting on skyexchhub.live - bet on IPL T20 ODI online" className="w-full h-full object-cover opacity-30" />
+          <img src={hero} alt="Live cricket betting on skyexchlive.live - bet on IPL T20 ODI online" className="w-full h-full object-cover opacity-30" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
         </div>
 
@@ -81,7 +81,7 @@ const Cricket = () => {
               Bet on <span className="text-gradient-gold">live cricket</span> in ₹ — IPL, T20, ODI & more
             </h1>
             <p className="text-muted-foreground text-base md:text-lg mb-7 max-w-2xl">
-              Skyexchhub gives you the fastest live cricket odds in India, lowest commission, and instant ₹ withdrawals.
+              Skyexchlive gives you the fastest live cricket odds in India, lowest commission, and instant ₹ withdrawals.
               Bet on every IPL 2026 match, T20 World Cup, ODI series and Test cricket — all from your phone.
             </p>
             <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold h-12 px-8">
@@ -110,7 +110,7 @@ const Cricket = () => {
 
       <section className="container py-14">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
-          Cricket markets <span className="text-gradient-gold">on Skyexchhub</span>
+          Cricket markets <span className="text-gradient-gold">on Skyexchlive</span>
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {markets.map((m) => (
@@ -128,7 +128,7 @@ const Cricket = () => {
           {leagues.map((g) => (
             <div key={g.t} className="relative rounded-2xl overflow-hidden border border-border bg-gradient-card group">
               <div className="aspect-square overflow-hidden">
-                <img src={g.img} alt={`Bet on ${g.t} live online at skyexchhub.live`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                <img src={g.img} alt={`Bet on ${g.t} live online at skyexchlive.live`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               </div>
               {g.tag && (
                 <span className="absolute top-3 left-3 px-2 py-1 rounded-md text-[10px] font-bold bg-destructive text-destructive-foreground">
@@ -150,7 +150,7 @@ const Cricket = () => {
             Ready to bet on <span className="text-gradient-gold">IPL 2026?</span>
           </h2>
           <p className="text-sm md:text-base text-muted-foreground mb-6">
-            Get your Skyexchhub cricket ID in 60 seconds on WhatsApp. Play in ₹, win in ₹.
+            Get your Skyexchlive cricket ID in 60 seconds on WhatsApp. Play in ₹, win in ₹.
           </p>
           <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
             Get Your Cricket ID Now

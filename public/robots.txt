@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://skyexchhub.live/sitemap.xml
+Sitemap: https://skyexchlive.live/sitemap.xml

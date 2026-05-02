@@ -10,27 +10,27 @@ import { applySeo } from "@/lib/seo";
 const About = () => {
   useEffect(() => {
     applySeo({
-      title: "About Skyexchhub | India's Trusted Online Sports Gaming Platform 2026",
+      title: "About Skyexchlive | India's Trusted Online Sports Gaming Platform 2026",
       description:
-        "About Skyexchhub (Sky Exchange Login) — India's leading online sports gaming platform since 2017. 10L+ players, 1000+ games, instant ₹ withdrawals, 24x7 WhatsApp support.",
-      canonical: "https://skyexchhub.live/about",
+        "About Skyexchlive (Sky Exchange Login) — India's leading online sports gaming platform since 2017. 10L+ players, 1000+ games, instant ₹ withdrawals, 24x7 WhatsApp support.",
+      canonical: "https://skyexchlive.live/about",
       keywords:
-        "about skyexchhub, sky exchange login, online sports gaming platform, sports betting platform online, skyexchhub online platform",
+        "about skyexchlive, sky exchange login, online sports gaming platform, sports betting platform online, skyexchlive online platform",
       jsonLd: [
         {
           "@context": "https://schema.org",
           "@type": "AboutPage",
-          name: "About Skyexchhub",
-          url: "https://skyexchhub.live/about",
+          name: "About Skyexchlive",
+          url: "https://skyexchlive.live/about",
           description:
-            "Learn about Skyexchhub — India's trusted online cricket and casino gaming platform.",
+            "Learn about Skyexchlive — India's trusted online cricket and casino gaming platform.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchhub.live/" },
-            { "@type": "ListItem", position: 2, name: "About", item: "https://skyexchhub.live/about" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchlive.live/" },
+            { "@type": "ListItem", position: 2, name: "About", item: "https://skyexchlive.live/about" },
           ],
         },
       ],
@@ -65,12 +65,12 @@ const About = () => {
         </nav>
 
         <div className="max-w-3xl mb-12">
-          <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-3">About Skyexchhub</div>
+          <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-3">About Skyexchlive</div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-5">
             India's most trusted <span className="text-gradient-gold">online sports gaming platform</span>
           </h1>
           <p className="text-muted-foreground text-base md:text-lg">
-            Skyexchhub (Sky Exchange Login) has been India's leading online cricket & casino platform since 2017.
+            Skyexchlive (Sky Exchange Login) has been India's leading online cricket & casino platform since 2017.
             Get your ID on WhatsApp in 60 seconds, play in ₹, and withdraw winnings instantly to any Indian bank account.
           </p>
         </div>
@@ -88,13 +88,13 @@ const About = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-extrabold mb-4">Our story</h2>
             <p className="text-muted-foreground mb-4">
-              Skyexchhub was founded in 2017 with one mission — make online sports gaming in India simple, safe and lightning fast. No long signup forms, no email verification delays, no hidden fees.
+              Skyexchlive was founded in 2017 with one mission — make online sports gaming in India simple, safe and lightning fast. No long signup forms, no email verification delays, no hidden fees.
             </p>
             <p className="text-muted-foreground mb-4">
-              Today, Skyexchhub serves over 10 lakh active players across India, processing more than ₹500 crore in payouts. We power live cricket betting on IPL, T20 World Cup, ODI and Test cricket — plus 1000+ casino games including Andar Bahar, Teen Patti, Aviator and live dealer roulette.
+              Today, Skyexchlive serves over 10 lakh active players across India, processing more than ₹500 crore in payouts. We power live cricket betting on IPL, T20 World Cup, ODI and Test cricket — plus 1000+ casino games including Andar Bahar, Teen Patti, Aviator and live dealer roulette.
             </p>
             <p className="text-muted-foreground">
-              Every Skyexchhub account is created on WhatsApp, secured with bank-grade SSL, and supported 24x7 by real humans — not chatbots.
+              Every Skyexchlive account is created on WhatsApp, secured with bank-grade SSL, and supported 24x7 by real humans — not chatbots.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -115,7 +115,7 @@ const About = () => {
             Ready to join <span className="text-gradient-gold">10 lakh+ Indian players?</span>
           </h2>
           <p className="text-sm md:text-base text-muted-foreground mb-6">
-            Get your free Skyexchhub ID on WhatsApp in under 60 seconds.
+            Get your free Skyexchlive ID on WhatsApp in under 60 seconds.
           </p>
           <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
             Get Your Online ID
