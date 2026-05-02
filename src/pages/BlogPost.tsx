@@ -13,9 +13,9 @@ const BlogPost = () => {
 
   useEffect(() => {
     if (!post) return;
-    const url = `https://skyexchlogin.live/blog/${post.slug}`;
+    const url = `https://skyexchhub.live/blog/${post.slug}`;
     applySeo({
-      title: `${post.title} | Skyexchlogin`,
+      title: `${post.title} | Skyexchhub`,
       description: post.description,
       canonical: url,
       keywords: post.keywords,
@@ -28,24 +28,24 @@ const BlogPost = () => {
           description: post.description,
           datePublished: post.date,
           dateModified: post.date,
-          author: { "@type": "Organization", name: "Skyexchlogin" },
+          author: { "@type": "Organization", name: "Skyexchhub" },
           publisher: {
             "@type": "Organization",
-            name: "Skyexchlogin",
+            name: "Skyexchhub",
             logo: {
               "@type": "ImageObject",
-              url: "https://skyexchlogin.live/favicon.png",
+              url: "https://skyexchhub.live/favicon.png",
             },
           },
           mainEntityOfPage: { "@type": "WebPage", "@id": url },
-          image: "https://skyexchlogin.live/og-image.jpg",
+          image: "https://skyexchhub.live/og-image.jpg",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchlogin.live/" },
-            { "@type": "ListItem", position: 2, name: "Blog", item: "https://skyexchlogin.live/blog" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchhub.live/" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://skyexchhub.live/blog" },
             { "@type": "ListItem", position: 3, name: post.title, item: url },
           ],
         },
@@ -139,10 +139,10 @@ const BlogPost = () => {
 
         <div className="mt-12 p-6 md:p-8 rounded-2xl border border-primary/30 bg-gradient-card text-center shadow-gold">
           <h3 className="text-xl md:text-2xl font-extrabold mb-2">
-            Ready to play on <span className="text-gradient-gold">Skyexchlogin?</span>
+            Ready to play on <span className="text-gradient-gold">Skyexchhub?</span>
           </h3>
           <p className="text-sm text-muted-foreground mb-5">
-            Get your free Skyexchlogin ID on WhatsApp in under 60 seconds. Play live cricket & casino in ₹.
+            Get your free Skyexchhub ID on WhatsApp in under 60 seconds. Play live cricket & casino in ₹.
           </p>
           <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
             Get Your ID Now
@@ -151,7 +151,7 @@ const BlogPost = () => {
 
         {related.length > 0 && (
           <section className="mt-16">
-            <h2 className="text-2xl font-extrabold mb-5">Related Skyexchlogin guides</h2>
+            <h2 className="text-2xl font-extrabold mb-5">Related Skyexchhub guides</h2>
             <div className="grid sm:grid-cols-2 gap-5">
               {related.map((r) => (
                 <Link

@@ -11,26 +11,26 @@ import { WHATSAPP_URL } from "@/lib/site";
 const Contact = () => {
   useEffect(() => {
     applySeo({
-      title: "Contact Skyexchlogin | 24x7 WhatsApp Support for Sky Exchange Login",
+      title: "Contact Skyexchhub | 24x7 WhatsApp Support for Sky Exchange Login",
       description:
-        "Contact Skyexchlogin 24x7 on WhatsApp for Sky Exchange Login help, ID creation, deposit & withdrawal support. Real human support, replies in under 60 seconds.",
-      canonical: "https://skyexchlogin.live/contact",
+        "Contact Skyexchhub 24x7 on WhatsApp for Sky Exchange Login help, ID creation, deposit & withdrawal support. Real human support, replies in under 60 seconds.",
+      canonical: "https://skyexchhub.live/contact",
       keywords:
-        "contact skyexchlogin, skyexchlogin support, sky exchange login support, whatsapp cricket id, online betting website india",
+        "contact skyexchhub, skyexchhub support, sky exchange login support, whatsapp cricket id, online betting website india",
       jsonLd: [
         {
           "@context": "https://schema.org",
           "@type": "ContactPage",
-          name: "Contact Skyexchlogin",
-          url: "https://skyexchlogin.live/contact",
-          description: "Get 24x7 support for Skyexchlogin login, deposits, withdrawals and account help.",
+          name: "Contact Skyexchhub",
+          url: "https://skyexchhub.live/contact",
+          description: "Get 24x7 support for Skyexchhub login, deposits, withdrawals and account help.",
         },
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "Skyexchlogin",
-          url: "https://skyexchlogin.live/",
-          logo: "https://skyexchlogin.live/favicon.png",
+          name: "Skyexchhub",
+          url: "https://skyexchhub.live/",
+          logo: "https://skyexchhub.live/favicon.png",
           contactPoint: [
             {
               "@type": "ContactPoint",
@@ -46,8 +46,8 @@ const Contact = () => {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchlogin.live/" },
-            { "@type": "ListItem", position: 2, name: "Contact", item: "https://skyexchlogin.live/contact" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchhub.live/" },
+            { "@type": "ListItem", position: 2, name: "Contact", item: "https://skyexchhub.live/contact" },
           ],
         },
       ],
@@ -55,7 +55,7 @@ const Contact = () => {
   }, []);
 
   const reasons = [
-    { icon: MessageCircle, t: "New Skyexchlogin ID", d: "Get your username & password in 60 seconds." },
+    { icon: MessageCircle, t: "New Skyexchhub ID", d: "Get your username & password in 60 seconds." },
     { icon: ShieldCheck, t: "Login issues", d: "Forgot password, account locked, or 2FA help." },
     { icon: Clock, t: "Deposit / Withdrawal", d: "UPI not credited? Withdrawal stuck? We resolve in minutes." },
     { icon: Headphones, t: "General queries", d: "Markets, odds, promotions — ask anything 24x7." },
@@ -73,12 +73,12 @@ const Contact = () => {
         </nav>
 
         <div className="max-w-3xl mb-12">
-          <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-3">Contact Skyexchlogin</div>
+          <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-3">Contact Skyexchhub</div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-5">
             24x7 <span className="text-gradient-gold">WhatsApp support</span> — real humans, instant replies
           </h1>
           <p className="text-muted-foreground text-base md:text-lg">
-            Skyexchlogin support is online round the clock. Whether you need a new Sky Exchange Login ID,
+            Skyexchhub support is online round the clock. Whether you need a new Sky Exchange Login ID,
             help with a deposit, or guidance on placing your first bet — message us on WhatsApp and get a reply in under 60 seconds.
           </p>
         </div>
@@ -90,7 +90,7 @@ const Contact = () => {
             </div>
             <h2 className="text-2xl font-extrabold mb-2">Message us on WhatsApp</h2>
             <p className="text-muted-foreground mb-6">
-              The fastest way to reach Skyexchlogin. Open WhatsApp, send a "Hi", and our team replies within 60 seconds — in Hindi or English.
+              The fastest way to reach Skyexchhub. Open WhatsApp, send a "Hi", and our team replies within 60 seconds — in Hindi or English.
             </p>
             <ul className="space-y-2 text-sm text-foreground/85 mb-6">
               <li>✓ 24x7 availability — including weekends & holidays</li>
