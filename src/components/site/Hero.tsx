@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="absolute inset-0 hidden md:block">
         <img
           src={hero}
-          alt="Play online cricket betting on skyexchange1.live - get your free cricket ID instantly"
+          alt="Play online cricket betting on skyexchange7.live - get your free cricket ID instantly"
           className="w-full h-full object-cover"
           width={1920}
           height={1080}
@@ -39,7 +39,7 @@ export const Hero = () => {
               <div className="relative h-56 sm:h-64 overflow-hidden rounded-2xl mx-4 border border-primary/20 shadow-gold">
                 <img
                   src={hero}
-                  alt="Get your ID and play live cricket now at skyexchange1.live"
+                  alt="Get your ID and play live cricket now at skyexchange7.live"
                   className="w-full h-full object-cover object-top"
                   loading="eager"
                 />

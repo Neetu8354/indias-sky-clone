@@ -15,26 +15,26 @@ import slots from "@/assets/sport-slots.jpg";
 const Casino = () => {
   useEffect(() => {
     applySeo({
-      title: "Live Casino India 2026 | Andar Bahar, Teen Patti, Aviator | Skyexchange1",
+      title: "Live Casino India 2026 | Andar Bahar, Teen Patti, Aviator | Skyexchange7",
       description:
-        "Play live casino games in India on Skyexchange1 — Andar Bahar, Teen Patti, Aviator, Roulette, Dragon Tiger and 1000+ titles. INR deposits, instant withdrawal, 24x7 support.",
-      canonical: "https://skyexchange1.live/casino",
+        "Play live casino games in India on Skyexchange7 — Andar Bahar, Teen Patti, Aviator, Roulette, Dragon Tiger and 1000+ titles. INR deposits, instant withdrawal, 24x7 support.",
+      canonical: "https://skyexchange7.live/casino",
       keywords:
-        "live casino india, andar bahar online, teen patti, aviator game, dragon tiger, online sports gaming platform, skyexchange1 online platform, mobile friendly sports betting platforms",
+        "live casino india, andar bahar online, teen patti, aviator game, dragon tiger, online sports gaming platform, skyexchange7 online platform, mobile friendly sports betting platforms",
       jsonLd: [
         {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "Live Casino on Skyexchange1",
-          url: "https://skyexchange1.live/casino",
-          description: "1000+ live casino games on the Skyexchange1 online platform — playable in INR.",
+          name: "Live Casino on Skyexchange7",
+          url: "https://skyexchange7.live/casino",
+          description: "1000+ live casino games on the Skyexchange7 online platform — playable in INR.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchange1.live/" },
-            { "@type": "ListItem", position: 2, name: "Casino", item: "https://skyexchange1.live/casino" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchange7.live/" },
+            { "@type": "ListItem", position: 2, name: "Casino", item: "https://skyexchange7.live/casino" },
           ],
         },
       ],
@@ -77,7 +77,7 @@ const Casino = () => {
               1000+ <span className="text-gradient-gold">live casino games</span> in ₹
             </h1>
             <p className="text-muted-foreground text-base md:text-lg mb-7 max-w-2xl">
-              Play Andar Bahar, Teen Patti, Aviator, Roulette and 1000+ live dealer games on the Skyexchange1 online platform.
+              Play Andar Bahar, Teen Patti, Aviator, Roulette and 1000+ live dealer games on the Skyexchange7 online platform.
               All in INR, mobile friendly, with instant deposits via UPI and withdrawals in 5–10 minutes.
             </p>
             <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold h-12 px-8">
@@ -109,7 +109,7 @@ const Casino = () => {
           {games.map((g) => (
             <div key={g.t} className="relative rounded-2xl overflow-hidden border border-border bg-gradient-card group hover:border-primary/60 transition">
               <div className="aspect-square overflow-hidden">
-                <img src={g.img} alt={`Play ${g.t} live online at skyexchange1.live - online sports gaming platform`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                <img src={g.img} alt={`Play ${g.t} live online at skyexchange7.live - online sports gaming platform`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               </div>
               {g.tag && (
                 <span className="absolute top-3 left-3 px-2 py-1 rounded-md text-[10px] font-bold bg-destructive text-destructive-foreground">
