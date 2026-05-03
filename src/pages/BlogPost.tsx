@@ -13,9 +13,9 @@ const BlogPost = () => {
 
   useEffect(() => {
     if (!post) return;
-    const url = `https://skyexchange1.live/blog/${post.slug}`;
+    const url = `https://skyexchange7.live/blog/${post.slug}`;
     applySeo({
-      title: `${post.title} | Skyexchange1`,
+      title: `${post.title} | Skyexchange7`,
       description: post.description,
       canonical: url,
       keywords: post.keywords,
@@ -28,24 +28,24 @@ const BlogPost = () => {
           description: post.description,
           datePublished: post.date,
           dateModified: post.date,
-          author: { "@type": "Organization", name: "Skyexchange1" },
+          author: { "@type": "Organization", name: "Skyexchange7" },
           publisher: {
             "@type": "Organization",
-            name: "Skyexchange1",
+            name: "Skyexchange7",
             logo: {
               "@type": "ImageObject",
-              url: "https://skyexchange1.live/favicon.png",
+              url: "https://skyexchange7.live/favicon.png",
             },
           },
           mainEntityOfPage: { "@type": "WebPage", "@id": url },
-          image: "https://skyexchange1.live/og-image.jpg",
+          image: "https://skyexchange7.live/og-image.jpg",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchange1.live/" },
-            { "@type": "ListItem", position: 2, name: "Blog", item: "https://skyexchange1.live/blog" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchange7.live/" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://skyexchange7.live/blog" },
             { "@type": "ListItem", position: 3, name: post.title, item: url },
           ],
         },
@@ -139,10 +139,10 @@ const BlogPost = () => {
 
         <div className="mt-12 p-6 md:p-8 rounded-2xl border border-primary/30 bg-gradient-card text-center shadow-gold">
           <h3 className="text-xl md:text-2xl font-extrabold mb-2">
-            Ready to play on <span className="text-gradient-gold">Skyexchange1?</span>
+            Ready to play on <span className="text-gradient-gold">Skyexchange7?</span>
           </h3>
           <p className="text-sm text-muted-foreground mb-5">
-            Get your free Skyexchange1 ID on WhatsApp in under 60 seconds. Play live cricket & casino in ₹.
+            Get your free Skyexchange7 ID on WhatsApp in under 60 seconds. Play live cricket & casino in ₹.
           </p>
           <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
             Get Your ID Now
@@ -151,7 +151,7 @@ const BlogPost = () => {
 
         {related.length > 0 && (
           <section className="mt-16">
-            <h2 className="text-2xl font-extrabold mb-5">Related Skyexchange1 guides</h2>
+            <h2 className="text-2xl font-extrabold mb-5">Related Skyexchange7 guides</h2>
             <div className="grid sm:grid-cols-2 gap-5">
               {related.map((r) => (
                 <Link

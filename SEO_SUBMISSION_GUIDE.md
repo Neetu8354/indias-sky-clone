@@ -1,4 +1,4 @@
-# Skyexchange1 — Search Engine Submission Guide
+# Skyexchange7 — Search Engine Submission Guide
 
 This is a **one-time external setup** you need to perform manually. Lovable cannot do this for you because it requires logging into your own Google & Bing accounts.
 
@@ -10,7 +10,7 @@ Estimated time: **15 minutes total**.
 
 1. Go to https://search.google.com/search-console
 2. Click **Add Property** → choose **URL prefix**
-3. Enter: `https://skyexchange1.live/`
+3. Enter: `https://skyexchange7.live/`
 4. **Verify ownership** — easiest method: HTML tag
    - Google gives you a `<meta name="google-site-verification" content="..." />` tag
    - Tell Lovable: *"Add this Google verification meta to index.html: PASTE_THE_TAG"*
@@ -18,10 +18,10 @@ Estimated time: **15 minutes total**.
 5. Once verified, go to **Sitemaps** in the left menu
 6. Submit: `sitemap.xml`
 7. Go to **URL Inspection**, paste each important URL, and click **Request Indexing**:
-   - `https://skyexchange1.live/`
-   - `https://skyexchange1.live/cricket`
-   - `https://skyexchange1.live/casino`
-   - `https://skyexchange1.live/blog`
+   - `https://skyexchange7.live/`
+   - `https://skyexchange7.live/cricket`
+   - `https://skyexchange7.live/casino`
+   - `https://skyexchange7.live/blog`
    - Each blog post URL
 
 **Weekly check:** open Search Console → **Coverage** → fix any "Excluded" or "Error" pages.
@@ -33,8 +33,8 @@ Estimated time: **15 minutes total**.
 1. Go to https://www.bing.com/webmasters
 2. Sign in with a Microsoft account
 3. Click **Import from Google Search Console** (fastest) — auto-imports your verified site & sitemap
-4. Or add manually: enter `https://skyexchange1.live/`, verify via meta tag (same flow as Google)
-5. Submit sitemap: `https://skyexchange1.live/sitemap.xml`
+4. Or add manually: enter `https://skyexchange7.live/`, verify via meta tag (same flow as Google)
+5. Submit sitemap: `https://skyexchange7.live/sitemap.xml`
 6. Use **URL Submission** tool to push your top 10 URLs for instant indexing
 
 ---
