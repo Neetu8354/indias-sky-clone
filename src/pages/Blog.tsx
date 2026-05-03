@@ -9,24 +9,24 @@ import { applySeo } from "@/lib/seo";
 const Blog = () => {
   useEffect(() => {
     applySeo({
-      title: "Skyexchlive Blog | Cricket Tips, Login Guides & Online Betting Insights",
+      title: "Skyexchange1 Blog | Cricket Tips, Login Guides & Online Betting Insights",
       description:
-        "Skyexchlive blog — live cricket betting tips online, Sky Exchange Login guides step by step, and safe online sports betting platform reviews for India 2026.",
-      canonical: "https://skyexchlive.live/blog",
+        "Skyexchange1 blog — live cricket betting tips online, Sky Exchange Login guides step by step, and safe online sports betting platform reviews for India 2026.",
+      canonical: "https://skyexchange1.live/blog",
       keywords:
-        "skyexchlive blog, live cricket betting tips online, sky exchange login guide, safe online sports betting websites 2026, online sports gaming platform",
+        "skyexchange1 blog, live cricket betting tips online, sky exchange login guide, safe online sports betting websites 2026, online sports gaming platform",
       jsonLd: {
         "@context": "https://schema.org",
         "@type": "Blog",
-        name: "Skyexchlive Blog",
-        url: "https://skyexchlive.live/blog",
+        name: "Skyexchange1 Blog",
+        url: "https://skyexchange1.live/blog",
         description:
           "Cricket betting tips, Sky Exchange Login guides and online sports gaming platform insights for Indian players.",
         blogPost: BLOG_POSTS.map((p) => ({
           "@type": "BlogPosting",
           headline: p.title,
           datePublished: p.date,
-          url: `https://skyexchlive.live/blog/${p.slug}`,
+          url: `https://skyexchange1.live/blog/${p.slug}`,
           description: p.description,
         })),
       },
@@ -40,13 +40,13 @@ const Blog = () => {
       <section className="container py-12 md:py-16">
         <div className="max-w-3xl">
           <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">
-            Skyexchlive Blog
+            Skyexchange1 Blog
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
             Cricket Tips, <span className="text-gradient-gold">Login Guides</span> & Betting Insights
           </h1>
           <p className="text-muted-foreground text-base md:text-lg">
-            Practical guides for Indian players — from how to login Skyexchlive step by step to live
+            Practical guides for Indian players — from how to login Skyexchange1 step by step to live
             cricket betting tips online and reviews of safe online sports betting websites in 2026.
           </p>
         </div>

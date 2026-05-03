@@ -8,10 +8,10 @@ export const Footer = () => (
     <div className="container py-12 grid md:grid-cols-4 gap-8">
       <div>
         <div className="flex items-center gap-2 mb-4">
-          <img src={logo} alt="Skyexchlive - Sky Exchange Login online cricket and casino platform" className="h-10 w-10" width={40} height={40} />
+          <img src={logo} alt="Skyexchange1 - Sky Exchange Login online cricket and casino platform" className="h-10 w-10" width={40} height={40} />
           <span className="text-xl font-extrabold text-gradient-gold">SKYEXCHANGE</span>
         </div>
-        <p className="text-sm text-muted-foreground">Skyexchlive (Sky Exchange Login) — India's most trusted online cricket & casino platform. Play live cricket betting in ₹, win big with fast withdrawal & 24x7 support.</p>
+        <p className="text-sm text-muted-foreground">Skyexchange1 (Sky Exchange Login) — India's most trusted online cricket & casino platform. Play live cricket betting in ₹, win big with fast withdrawal & 24x7 support.</p>
       </div>
       {[
         { t: "Sports", l: ["Cricket", "IPL 2026", "T20 World Cup", "ODI"] },
@@ -29,7 +29,7 @@ export const Footer = () => (
         </div>
       ))}
       <div>
-        <h4 className="font-bold mb-3">Skyexchlive Blog</h4>
+        <h4 className="font-bold mb-3">Skyexchange1 Blog</h4>
         <ul className="space-y-2 text-sm text-muted-foreground">
           <li>
             <Link to="/blog" className="hover:text-primary">All articles</Link>
@@ -46,7 +46,7 @@ export const Footer = () => (
     </div>
     <div className="border-t border-border">
       <div className="container py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} Skyexchlive. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Skyexchange1. All rights reserved.</p>
         <p>18+ only · Play responsibly · Gambling can be addictive</p>
       </div>
     </div>

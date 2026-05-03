@@ -16,7 +16,7 @@ const Card = ({ g }: { g: Game }) => (
     className="group relative rounded-2xl overflow-hidden border border-border bg-gradient-card shadow-lg hover:shadow-gold hover:border-primary/60 transition-all duration-300 hover:-translate-y-1"
   >
     <div className="aspect-square overflow-hidden">
-      <img src={g.img} alt={`${g.title} - bet on ${g.title} live online at skyexchlive.live`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+      <img src={g.img} alt={`${g.title} - bet on ${g.title} live online at skyexchange1.live`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
     </div>
     {g.tag && (
       <span className="absolute top-3 left-3 px-2 py-1 rounded-md text-[10px] font-bold bg-destructive text-destructive-foreground">

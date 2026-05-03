@@ -30,23 +30,23 @@ import imgCricket from "@/assets/sport-cricket.jpg";
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    slug: "skyexchlive-login-guide-step-by-step",
-    title: "Skyexchlive Login Guide Step by Step (2026 Edition)",
+    slug: "skyexchange1-login-guide-step-by-step",
+    title: "Skyexchange1 Login Guide Step by Step (2026 Edition)",
     description:
-      "Learn how to login Skyexchlive with username in 2026. Full step-by-step Sky Exchange Login guide with screenshots, tips and troubleshooting for Indian players.",
+      "Learn how to login Skyexchange1 with username in 2026. Full step-by-step Sky Exchange Login guide with screenshots, tips and troubleshooting for Indian players.",
     keywords:
-      "skyexchlive login, sky exchange login, how to login skyexchlive with username, skyexchlive login guide step by step",
+      "skyexchange1 login, sky exchange login, how to login skyexchange1 with username, skyexchange1 login guide step by step",
     date: "2026-04-22",
     readTime: "5 min read",
     category: "Login Guide",
     excerpt:
-      "A complete walkthrough of how to login Skyexchlive with your username — from getting your ID on WhatsApp to placing your first bet on skyexchlive.live.",
+      "A complete walkthrough of how to login Skyexchange1 with your username — from getting your ID on WhatsApp to placing your first bet on skyexchange1.live.",
     image: banner1,
-    imageAlt: "How to login skyexchlive step by step guide banner skyexchlive.live",
+    imageAlt: "How to login skyexchange1 step by step guide banner skyexchange1.live",
     body: [
       {
         type: "p",
-        text: "If you're new to online sports gaming in India, the first hurdle is usually the login. This Skyexchlive login guide step by step walks you through the entire flow — from requesting your username on WhatsApp to landing on the dashboard and placing your first bet on skyexchlive.live. The whole process takes under 2 minutes.",
+        text: "If you're new to online sports gaming in India, the first hurdle is usually the login. This Skyexchange1 login guide step by step walks you through the entire flow — from requesting your username on WhatsApp to landing on the dashboard and placing your first bet on skyexchange1.live. The whole process takes under 2 minutes.",
       },
       { type: "h2", text: "What you need before Sky Exchange Login" },
       {
@@ -58,31 +58,31 @@ export const BLOG_POSTS: BlogPost[] = [
           "About 60 seconds of your time",
         ],
       },
-      { type: "h2", text: "How to login Skyexchlive with username — 5 simple steps" },
+      { type: "h2", text: "How to login Skyexchange1 with username — 5 simple steps" },
       {
         type: "ol",
         items: [
-          "Open skyexchlive.live in any browser. The site is mobile friendly and works without any app download.",
+          "Open skyexchange1.live in any browser. The site is mobile friendly and works without any app download.",
           "Tap any 'Get Your Online ID' button. You'll be redirected to our 24x7 WhatsApp support.",
-          "Send a 'Hi' message. Our team replies instantly with your Skyexchlive login username and password.",
-          "Return to skyexchlive.live, tap 'Login', and enter the username & password we sent you.",
+          "Send a 'Hi' message. Our team replies instantly with your Skyexchange1 login username and password.",
+          "Return to skyexchange1.live, tap 'Login', and enter the username & password we sent you.",
           "You're in. Pick any cricket match or casino table, deposit in ₹ via UPI, and place your bet.",
         ],
       },
-      { type: "h2", text: "Skyexchlive login troubleshooting" },
+      { type: "h2", text: "Skyexchange1 login troubleshooting" },
       { type: "h3", text: "Forgot password?" },
       {
         type: "p",
-        text: "Just message us on WhatsApp — we'll reset your Skyexchlive password within 30 seconds. No email verification, no waiting.",
+        text: "Just message us on WhatsApp — we'll reset your Skyexchange1 password within 30 seconds. No email verification, no waiting.",
       },
       { type: "h3", text: "Login page not loading?" },
       {
         type: "p",
-        text: "Clear your browser cache or try an incognito window. Skyexchlive.live is hosted on a fast CDN so it loads in under 2 seconds even on 4G in India.",
+        text: "Clear your browser cache or try an incognito window. Skyexchange1.live is hosted on a fast CDN so it loads in under 2 seconds even on 4G in India.",
       },
       {
         type: "quote",
-        text: "Pro tip: Save skyexchlive.live as a bookmark on your phone's home screen — login becomes a one-tap action.",
+        text: "Pro tip: Save skyexchange1.live as a bookmark on your phone's home screen — login becomes a one-tap action.",
       },
       { type: "h2", text: "After login: place your first bet" },
       {
@@ -95,25 +95,25 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "live-cricket-betting-tips-online",
     title: "Live Cricket Betting Tips Online — How to Bet on Live Cricket Matches in 2026",
     description:
-      "Practical live cricket betting tips online for 2026. Learn how to bet on live cricket matches, read live odds, manage bankroll and use Skyexchlive smartly.",
+      "Practical live cricket betting tips online for 2026. Learn how to bet on live cricket matches, read live odds, manage bankroll and use Skyexchange1 smartly.",
     keywords:
-      "live cricket betting tips online, how to bet on live cricket matches online, best cricket prediction sites online, skyexchlive online platform",
+      "live cricket betting tips online, how to bet on live cricket matches online, best cricket prediction sites online, skyexchange1 online platform",
     date: "2026-04-15",
     readTime: "7 min read",
     category: "Cricket Tips",
     excerpt:
       "From reading session odds to managing your bankroll, these live cricket betting tips online will help beginners place smarter bets on IPL and T20 matches in 2026.",
     image: banner2,
-    imageAlt: "Best betting platform in india. Join now and play fast skyexchlive.live",
+    imageAlt: "Best betting platform in india. Join now and play fast skyexchange1.live",
     body: [
       {
         type: "p",
-        text: "Live cricket betting is the most exciting way to enjoy IPL, T20 World Cup and ODI matches in India. But excitement alone doesn't win you money — strategy does. Here are the live cricket betting tips online that every beginner using the Skyexchlive online platform should know in 2026.",
+        text: "Live cricket betting is the most exciting way to enjoy IPL, T20 World Cup and ODI matches in India. But excitement alone doesn't win you money — strategy does. Here are the live cricket betting tips online that every beginner using the Skyexchange1 online platform should know in 2026.",
       },
       { type: "h2", text: "1. Understand live odds before placing a bet" },
       {
         type: "p",
-        text: "Live odds shift every ball. On Skyexchlive, you'll see two numbers — back and lay. Back means you're betting FOR an outcome; lay means you're betting AGAINST it. Always check both before locking your stake.",
+        text: "Live odds shift every ball. On Skyexchange1, you'll see two numbers — back and lay. Back means you're betting FOR an outcome; lay means you're betting AGAINST it. Always check both before locking your stake.",
       },
       { type: "h2", text: "2. Use session betting for short-term wins" },
       {
@@ -133,7 +133,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "4. Watch the match live while you bet" },
       {
         type: "p",
-        text: "TV broadcasts have a 5–30 second delay. If you're betting live, follow ball-by-ball commentary on a low-latency feed. Skyexchlive shows live scores directly on the betting screen.",
+        text: "TV broadcasts have a 5–30 second delay. If you're betting live, follow ball-by-ball commentary on a low-latency feed. Skyexchange1 shows live scores directly on the betting screen.",
       },
       { type: "h2", text: "5. Pick the right markets for the format" },
       {
@@ -144,10 +144,10 @@ export const BLOG_POSTS: BlogPost[] = [
           "Test cricket: Session runs, lead at end of day, draw odds",
         ],
       },
-      { type: "h2", text: "Why Skyexchlive is one of the best cricket prediction sites online" },
+      { type: "h2", text: "Why Skyexchange1 is one of the best cricket prediction sites online" },
       {
         type: "p",
-        text: "Skyexchlive offers the fastest live odds in India, instant ₹ withdrawals, 24x7 WhatsApp support, and bank-grade security — making it a top choice among safe online sports betting websites in 2026. Get your ID now and apply these tips on your very next match.",
+        text: "Skyexchange1 offers the fastest live odds in India, instant ₹ withdrawals, 24x7 WhatsApp support, and bank-grade security — making it a top choice among safe online sports betting websites in 2026. Get your ID now and apply these tips on your very next match.",
       },
     ],
   },
@@ -155,7 +155,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "safe-online-sports-betting-websites-2026",
     title: "Safe Online Sports Betting Websites 2026 — How Sports Betting Platforms Work Online",
     description:
-      "How to choose safe online sports betting websites in 2026. Learn how sports betting platforms work online, what makes them secure, and why Skyexchlive tops the list.",
+      "How to choose safe online sports betting websites in 2026. Learn how sports betting platforms work online, what makes them secure, and why Skyexchange1 tops the list.",
     keywords:
       "safe online sports betting websites 2026, how sports betting platforms work online, online betting website, mobile friendly sports betting platforms, best online sports betting platform for beginners",
     date: "2026-04-08",
@@ -164,7 +164,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "A 2026 guide to picking safe online sports betting websites in India — security checks, payment safety, and a beginner-friendly explanation of how sports betting platforms work online.",
     image: banner3,
-    imageAlt: "Top online games list 2026 blog banner skyexchlive.live",
+    imageAlt: "Top online games list 2026 blog banner skyexchange1.live",
     body: [
       {
         type: "p",
@@ -173,7 +173,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "How sports betting platforms work online" },
       {
         type: "p",
-        text: "An online betting website like Skyexchlive acts as a marketplace. You deposit ₹, the platform shows live odds for every match, and when you place a bet your stake is held in escrow until the result is settled. Winnings are then credited back to your wallet, ready for instant withdrawal to your Indian bank account.",
+        text: "An online betting website like Skyexchange1 acts as a marketplace. You deposit ₹, the platform shows live odds for every match, and when you place a bet your stake is held in escrow until the result is settled. Winnings are then credited back to your wallet, ready for instant withdrawal to your Indian bank account.",
       },
       { type: "h2", text: "Checklist: 7 signs of a safe betting site" },
       {
@@ -182,7 +182,7 @@ export const BLOG_POSTS: BlogPost[] = [
           "HTTPS / SSL padlock visible in the browser address bar",
           "INR deposits via UPI, PhonePe, GPay or Paytm — not crypto-only",
           "Real 24x7 support on WhatsApp, not just an email form",
-          "Transparent withdrawal times (Skyexchlive: 5–10 minutes)",
+          "Transparent withdrawal times (Skyexchange1: 5–10 minutes)",
           "Mobile friendly — works in browser without forced app installs",
           "Clear responsible gaming notice (18+ only)",
           "Long-running brand with consistent reviews from Indian players",
@@ -191,42 +191,42 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Best online sports betting platform for beginners" },
       {
         type: "p",
-        text: "If you're new, start with a platform that offers WhatsApp onboarding, INR deposits, and live cricket markets you already understand. Skyexchlive checks all three boxes — that's why it's frequently recommended as the best online sports betting platform for beginners in India.",
+        text: "If you're new, start with a platform that offers WhatsApp onboarding, INR deposits, and live cricket markets you already understand. Skyexchange1 checks all three boxes — that's why it's frequently recommended as the best online sports betting platform for beginners in India.",
       },
       { type: "h2", text: "Mobile friendly sports betting platforms" },
       {
         type: "p",
-        text: "Over 80% of Indian players bet from a phone in 2026. Skyexchlive.live is fully responsive — fast load times, tap-friendly buttons, and zero lag during live matches. No app download, no Play Store restrictions.",
+        text: "Over 80% of Indian players bet from a phone in 2026. Skyexchange1.live is fully responsive — fast load times, tap-friendly buttons, and zero lag during live matches. No app download, no Play Store restrictions.",
       },
       {
         type: "quote",
         text: "Bottom line: a safe online sports betting website in 2026 should feel transparent, instant and human. If something feels off — slow withdrawals, no real support — walk away.",
       },
-      { type: "h2", text: "Get started with Skyexchlive" },
+      { type: "h2", text: "Get started with Skyexchange1" },
       {
         type: "p",
-        text: "Ready to try it yourself? Click any WhatsApp button on skyexchlive.live, get your free ID in 60 seconds, and play live cricket and casino games safely in ₹.",
+        text: "Ready to try it yourself? Click any WhatsApp button on skyexchange1.live, get your free ID in 60 seconds, and play live cricket and casino games safely in ₹.",
       },
     ],
   },
   {
-    slug: "how-to-win-aviator-game-skyexchlive",
-    title: "How to Win Aviator 10x Multiplier on Skyexchlive (2026 Strategy)",
+    slug: "how-to-win-aviator-game-skyexchange1",
+    title: "How to Win Aviator 10x Multiplier on Skyexchange1 (2026 Strategy)",
     description:
-      "Learn how to win Aviator 10x with skyexchlive.live. Real strategies, auto cash-out tips, and bankroll rules for the Aviator game on the Skyexchlive online platform.",
+      "Learn how to win Aviator 10x with skyexchange1.live. Real strategies, auto cash-out tips, and bankroll rules for the Aviator game on the Skyexchange1 online platform.",
     keywords:
-      "how to win aviator 10x with skyexchlive.live, aviator game strategy, skyexchlive online platform, sports gaming app online",
+      "how to win aviator 10x with skyexchange1.live, aviator game strategy, skyexchange1 online platform, sports gaming app online",
     date: "2026-04-01",
     readTime: "6 min read",
     category: "Casino Strategy",
     excerpt:
-      "Aviator looks simple — but winning 10x consistently takes discipline. Here are proven strategies, auto cash-out settings, and bankroll rules for the Aviator game on Skyexchlive.",
+      "Aviator looks simple — but winning 10x consistently takes discipline. Here are proven strategies, auto cash-out settings, and bankroll rules for the Aviator game on Skyexchange1.",
     image: imgAviator,
-    imageAlt: "How to win aviator 10x with skyexchlive.live - aviator game strategy banner",
+    imageAlt: "How to win aviator 10x with skyexchange1.live - aviator game strategy banner",
     body: [
       {
         type: "p",
-        text: "Aviator is the fastest-growing crash game on the Skyexchlive online platform. The rules are simple — a plane takes off, a multiplier rises, and you cash out before it crashes. But chasing a 10x multiplier without strategy is a fast way to lose your wallet. Here's how experienced players actually hit 10x on skyexchlive.live.",
+        text: "Aviator is the fastest-growing crash game on the Skyexchange1 online platform. The rules are simple — a plane takes off, a multiplier rises, and you cash out before it crashes. But chasing a 10x multiplier without strategy is a fast way to lose your wallet. Here's how experienced players actually hit 10x on skyexchange1.live.",
       },
       { type: "h2", text: "Understand the Aviator math first" },
       {
@@ -242,7 +242,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h3", text: "2. Two-bet split" },
       {
         type: "p",
-        text: "Aviator lets you place two bets per round. Set bet 1 to auto cash-out at 1.3x for safety; let bet 2 ride for 10x. This is the most popular strategy among Skyexchlive players in 2026.",
+        text: "Aviator lets you place two bets per round. Set bet 1 to auto cash-out at 1.3x for safety; let bet 2 ride for 10x. This is the most popular strategy among Skyexchange1 players in 2026.",
       },
       { type: "h3", text: "3. Skip pattern bias" },
       {
@@ -261,37 +261,37 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h3", text: "5. Time-of-day discipline" },
       {
         type: "p",
-        text: "Aviator outcomes are random, but YOUR decisions aren't. Avoid playing tired or after a big loss elsewhere. Best results on Skyexchlive come from short focused 20-minute sessions.",
+        text: "Aviator outcomes are random, but YOUR decisions aren't. Avoid playing tired or after a big loss elsewhere. Best results on Skyexchange1 come from short focused 20-minute sessions.",
       },
       {
         type: "quote",
         text: "Cash out small, cash out often. The 10x will come — but only to players still in the game when it does.",
       },
-      { type: "h2", text: "Play Aviator on Skyexchlive today" },
+      { type: "h2", text: "Play Aviator on Skyexchange1 today" },
       {
         type: "p",
-        text: "Get your Skyexchlive ID on WhatsApp in 60 seconds, deposit ₹100 minimum, and apply these strategies on your next Aviator session at skyexchlive.live.",
+        text: "Get your Skyexchange1 ID on WhatsApp in 60 seconds, deposit ₹100 minimum, and apply these strategies on your next Aviator session at skyexchange1.live.",
       },
     ],
   },
   {
-    slug: "teen-patti-vs-andar-bahar-skyexchlive",
-    title: "Teen Patti vs Andar Bahar — Which Pays More on Skyexchlive?",
+    slug: "teen-patti-vs-andar-bahar-skyexchange1",
+    title: "Teen Patti vs Andar Bahar — Which Pays More on Skyexchange1?",
     description:
-      "Teen Patti vs Andar Bahar compared on Skyexchlive online platform. Payout rates, house edge, strategy and which Indian card game is best for beginners in 2026.",
+      "Teen Patti vs Andar Bahar compared on Skyexchange1 online platform. Payout rates, house edge, strategy and which Indian card game is best for beginners in 2026.",
     keywords:
-      "teen patti, andar bahar, skyexchlive online platform, online sports gaming platform, best online sports betting platform for beginners",
+      "teen patti, andar bahar, skyexchange1 online platform, online sports gaming platform, best online sports betting platform for beginners",
     date: "2026-03-25",
     readTime: "5 min read",
     category: "Casino Strategy",
     excerpt:
-      "Both are Indian classics, but Teen Patti and Andar Bahar pay very differently. Here's a head-to-head comparison so you pick the right game on the Skyexchlive online platform.",
+      "Both are Indian classics, but Teen Patti and Andar Bahar pay very differently. Here's a head-to-head comparison so you pick the right game on the Skyexchange1 online platform.",
     image: imgTeenpatti,
-    imageAlt: "Teen patti vs andar bahar comparison on skyexchlive.live online sports gaming platform",
+    imageAlt: "Teen patti vs andar bahar comparison on skyexchange1.live online sports gaming platform",
     body: [
       {
         type: "p",
-        text: "Teen Patti and Andar Bahar are the two most-played card games on the Skyexchlive online platform. Both are easy to learn, both pay in ₹, and both have huge live-dealer audiences — but they suit very different player personalities. Here's how they compare in 2026.",
+        text: "Teen Patti and Andar Bahar are the two most-played card games on the Skyexchange1 online platform. Both are easy to learn, both pay in ₹, and both have huge live-dealer audiences — but they suit very different player personalities. Here's how they compare in 2026.",
       },
       { type: "h2", text: "Quick comparison table" },
       {
@@ -315,7 +315,7 @@ export const BLOG_POSTS: BlogPost[] = [
         items: [
           "Zero strategy needed — pure luck",
           "Rounds finish in under a minute",
-          "Lowest house edge on Skyexchlive (2.15%)",
+          "Lowest house edge on Skyexchange1 (2.15%)",
           "Easiest game to track wins/losses",
         ],
       },
@@ -337,7 +337,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Verdict: which should you play?" },
       {
         type: "p",
-        text: "If you're brand new to the Skyexchlive online platform, start with Andar Bahar — lower edge, faster feedback, easier bankroll control. Once you understand basic odds, switch to Teen Patti for bigger upside. Both run live 24x7 with INR deposits and instant withdrawals.",
+        text: "If you're brand new to the Skyexchange1 online platform, start with Andar Bahar — lower edge, faster feedback, easier bankroll control. Once you understand basic odds, switch to Teen Patti for bigger upside. Both run live 24x7 with INR deposits and instant withdrawals.",
       },
       {
         type: "quote",
@@ -346,23 +346,23 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
-    slug: "ipl-2026-betting-guide-skyexchlive",
+    slug: "ipl-2026-betting-guide-skyexchange1",
     title: "IPL 2026 Betting Guide — Markets, Tips & Best Online Sports Betting Platform",
     description:
-      "Complete IPL 2026 betting guide on Skyexchlive. Match winner, top batsman, session markets, and tips for the best online sports betting platform for beginners in India.",
+      "Complete IPL 2026 betting guide on Skyexchange1. Match winner, top batsman, session markets, and tips for the best online sports betting platform for beginners in India.",
     keywords:
       "ipl 2026, live cricket betting tips online, best online sports betting platform for beginners, online sports gaming platform, sports betting platform online, how to bet on live cricket matches online",
     date: "2026-03-18",
     readTime: "8 min read",
     category: "Cricket Tips",
     excerpt:
-      "Everything you need for IPL 2026 — popular markets explained, beginner-friendly bet types, and why Skyexchlive is the best online sports betting platform for new Indian players.",
+      "Everything you need for IPL 2026 — popular markets explained, beginner-friendly bet types, and why Skyexchange1 is the best online sports betting platform for new Indian players.",
     image: imgCricket,
-    imageAlt: "IPL 2026 betting guide on skyexchlive.live - best online sports betting platform india",
+    imageAlt: "IPL 2026 betting guide on skyexchange1.live - best online sports betting platform india",
     body: [
       {
         type: "p",
-        text: "IPL 2026 is here — 74 matches, 10 teams, and the biggest live cricket betting season of the year. If you're new to live cricket betting tips online, this guide covers every major market on Skyexchlive and shows you how to bet on live cricket matches online without burning your bankroll.",
+        text: "IPL 2026 is here — 74 matches, 10 teams, and the biggest live cricket betting season of the year. If you're new to live cricket betting tips online, this guide covers every major market on Skyexchange1 and shows you how to bet on live cricket matches online without burning your bankroll.",
       },
       { type: "h2", text: "Most popular IPL 2026 betting markets" },
       { type: "h3", text: "Match Winner" },
@@ -373,7 +373,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h3", text: "Top Batsman of the Match" },
       {
         type: "p",
-        text: "Pick which player will score the most runs. Pays 3x–8x. On Skyexchlive you'll see live updates after every over so you can hedge if your pick gets out early.",
+        text: "Pick which player will score the most runs. Pays 3x–8x. On Skyexchange1 you'll see live updates after every over so you can hedge if your pick gets out early.",
       },
       { type: "h3", text: "Total Runs Over/Under" },
       {
@@ -383,7 +383,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h3", text: "Session Betting" },
       {
         type: "p",
-        text: "Predict runs in a 6-over block. The fastest, most exciting market. Settles every 30 minutes. Most experienced Skyexchlive players make 70% of profits from session bets alone.",
+        text: "Predict runs in a 6-over block. The fastest, most exciting market. Settles every 30 minutes. Most experienced Skyexchange1 players make 70% of profits from session bets alone.",
       },
       { type: "h2", text: "5 IPL 2026 betting tips for beginners" },
       {
@@ -393,10 +393,10 @@ export const BLOG_POSTS: BlogPost[] = [
           "Track dew factor in evening matches (Mumbai, Chennai) — chasing teams win more",
           "Avoid emotional bets on your favorite team — bet the odds, not the jersey",
           "Use small stakes (1–2% of bankroll) on session bets, larger on match winner",
-          "Cash out partial profits when ahead — Skyexchlive lets you lock wins mid-match",
+          "Cash out partial profits when ahead — Skyexchange1 lets you lock wins mid-match",
         ],
       },
-      { type: "h2", text: "Why Skyexchlive is the best online sports betting platform for beginners" },
+      { type: "h2", text: "Why Skyexchange1 is the best online sports betting platform for beginners" },
       {
         type: "ul",
         items: [
@@ -414,7 +414,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Get your IPL 2026 ID now" },
       {
         type: "p",
-        text: "Don't miss a match. Click any WhatsApp button on skyexchlive.live, get your Skyexchlive ID in 60 seconds, deposit in ₹, and join lakhs of Indian players betting smarter on IPL 2026.",
+        text: "Don't miss a match. Click any WhatsApp button on skyexchange1.live, get your Skyexchange1 ID in 60 seconds, deposit in ₹, and join lakhs of Indian players betting smarter on IPL 2026.",
       },
     ],
   },
@@ -422,25 +422,25 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "how-to-join-online-sports-gaming-website",
     title: "How to Join Online Sports Gaming Website in India (2026 Walkthrough)",
     description:
-      "Step-by-step guide on how to join online sports gaming website in India 2026. Skyexchlive signup, KYC-free onboarding, INR deposits & first bet placement.",
+      "Step-by-step guide on how to join online sports gaming website in India 2026. Skyexchange1 signup, KYC-free onboarding, INR deposits & first bet placement.",
     keywords:
       "how to join online sports gaming website, online sports gaming platform, sports betting platform online, online betting website, mobile friendly sports betting platforms, sports gaming app online",
     date: "2026-03-10",
     readTime: "5 min read",
     category: "Beginner Guide",
     excerpt:
-      "First time joining an online sports gaming website? This 2026 walkthrough covers everything — from getting your Skyexchlive ID on WhatsApp to placing your first bet in ₹.",
+      "First time joining an online sports gaming website? This 2026 walkthrough covers everything — from getting your Skyexchange1 ID on WhatsApp to placing your first bet in ₹.",
     image: imgAndar,
-    imageAlt: "How to join online sports gaming website skyexchlive.live - beginner signup guide india",
+    imageAlt: "How to join online sports gaming website skyexchange1.live - beginner signup guide india",
     body: [
       {
         type: "p",
-        text: "Joining an online sports gaming platform in India used to mean long signup forms, KYC documents, email verification, and 24-hour waits. In 2026, Skyexchlive has cut all of that. Here's exactly how to join — start to first bet — in under 3 minutes.",
+        text: "Joining an online sports gaming platform in India used to mean long signup forms, KYC documents, email verification, and 24-hour waits. In 2026, Skyexchange1 has cut all of that. Here's exactly how to join — start to first bet — in under 3 minutes.",
       },
-      { type: "h2", text: "Step 1: Open skyexchlive.live" },
+      { type: "h2", text: "Step 1: Open skyexchange1.live" },
       {
         type: "p",
-        text: "Open any browser on your phone or laptop and go to skyexchlive.live. The site is mobile friendly so it loads instantly even on 4G. No app install required.",
+        text: "Open any browser on your phone or laptop and go to skyexchange1.live. The site is mobile friendly so it loads instantly even on 4G. No app install required.",
       },
       { type: "h2", text: "Step 2: Tap 'Get Your Online ID'" },
       {
@@ -450,13 +450,13 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Step 3: Send 'Hi' on WhatsApp" },
       {
         type: "p",
-        text: "Our team replies within 60 seconds with your Skyexchlive login username and password. That's your full account — no email, no OTP, no KYC documents at this stage.",
+        text: "Our team replies within 60 seconds with your Skyexchange1 login username and password. That's your full account — no email, no OTP, no KYC documents at this stage.",
       },
       { type: "h2", text: "Step 4: Login & deposit in ₹" },
       {
         type: "ul",
         items: [
-          "Return to skyexchlive.live and tap 'Login'",
+          "Return to skyexchange1.live and tap 'Login'",
           "Enter the username & password from WhatsApp",
           "Go to 'Deposit' and pick UPI / PhonePe / GPay / Paytm",
           "Minimum deposit: ₹100 — funds appear instantly",
@@ -467,7 +467,7 @@ export const BLOG_POSTS: BlogPost[] = [
         type: "p",
         text: "Pick any live IPL match, choose 'Match Winner' as your first market, enter ₹50–₹100 as stake, and confirm. You'll see live odds updating in real time. Winnings settle automatically the moment the result is final.",
       },
-      { type: "h2", text: "Why Skyexchlive is the easiest online sports gaming platform to join" },
+      { type: "h2", text: "Why Skyexchange1 is the easiest online sports gaming platform to join" },
       {
         type: "ul",
         items: [
@@ -480,12 +480,237 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "quote",
-        text: "From 'never bet before' to 'first winnings in your bank account' — under 30 minutes on Skyexchlive.",
+        text: "From 'never bet before' to 'first winnings in your bank account' — under 30 minutes on Skyexchange1.",
       },
       { type: "h2", text: "Ready to join?" },
       {
         type: "p",
-        text: "Click any WhatsApp button on skyexchlive.live right now. In 60 seconds you'll have a Skyexchlive ID and you'll be ready to place your first bet on IPL 2026, live casino, Aviator, Teen Patti, Andar Bahar and more.",
+        text: "Click any WhatsApp button on skyexchange1.live right now. In 60 seconds you'll have a Skyexchange1 ID and you'll be ready to place your first bet on IPL 2026, live casino, Aviator, Teen Patti, Andar Bahar and more.",
+      },
+    ],
+  },
+  {
+    slug: "best-cricket-prediction-sites-online-2026",
+    title: "Best Cricket Prediction Sites Online 2026 — Top Picks for Indian Players",
+    description:
+      "Compare the best cricket prediction sites online in 2026. Learn what makes a prediction site accurate and how Skyexchange1 helps you bet on live cricket matches online.",
+    keywords:
+      "best cricket prediction sites online, live cricket betting tips online, skyexchange1 online platform, how to bet on live cricket matches online",
+    date: "2026-03-02",
+    readTime: "6 min read",
+    category: "Cricket Tips",
+    excerpt:
+      "A 2026 roundup of the best cricket prediction sites online — what to look for, red flags to avoid, and how to combine predictions with Skyexchange1 live odds.",
+    image: imgCricket,
+    imageAlt: "best cricket prediction sites online 2026 blog banner skyexchange1.live",
+    body: [
+      {
+        type: "p",
+        text: "If you search for the best cricket prediction sites online, you'll find hundreds of names. Most are noise. This 2026 guide cuts through the clutter and shows you exactly what a trustworthy prediction site looks like — and how to pair their tips with the Skyexchange1 online platform for smarter live betting.",
+      },
+      { type: "h2", text: "What makes a cricket prediction site actually good?" },
+      {
+        type: "ul",
+        items: [
+          "A public track record (wins AND losses logged openly)",
+          "Pitch, weather and team-news analysis — not just gut calls",
+          "No 'guaranteed win' marketing (a huge red flag)",
+          "Free daily previews so you can test accuracy before paying",
+          "Active community on Telegram or X to verify call timestamps",
+        ],
+      },
+      { type: "h2", text: "Top categories of prediction sites in 2026" },
+      { type: "h3", text: "1. Stats-driven sites" },
+      {
+        type: "p",
+        text: "These rely on historical data, head-to-head records and venue stats. Best for ODI and Test predictions where conditions matter more than form.",
+      },
+      { type: "h3", text: "2. Insider-news sites" },
+      {
+        type: "p",
+        text: "Faster to react to last-minute team changes and toss results — useful for IPL 2026 where playing XIs swing odds dramatically.",
+      },
+      { type: "h3", text: "3. AI-model sites" },
+      {
+        type: "p",
+        text: "Newer breed using machine learning on ball-by-ball data. Decent for session predictions but still need a human gut-check.",
+      },
+      { type: "h2", text: "How to use predictions with Skyexchange1" },
+      {
+        type: "ol",
+        items: [
+          "Read 2–3 prediction sites before the match — note where they agree.",
+          "Open skyexchange1.live and compare the live odds to the predicted outcome.",
+          "Only bet when the Skyexchange1 odds offer better value than the prediction implies.",
+          "Use session and fancy markets for low-risk in-play bets.",
+          "Withdraw winnings via UPI within 5–10 minutes — don't let profits sit.",
+        ],
+      },
+      {
+        type: "quote",
+        text: "Predictions tell you WHAT might happen. Skyexchange1 odds tell you whether the bet is WORTH IT. Always check both.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-bet-on-live-cricket-matches-online",
+    title: "How to Bet on Live Cricket Matches Online — Beginner's Guide 2026",
+    description:
+      "Step-by-step guide on how to bet on live cricket matches online in 2026. Learn live odds, session betting, and how to place your first in-play bet on Skyexchange1.",
+    keywords:
+      "how to bet on live cricket matches online, live cricket betting tips online, skyexchange1 login, online sports gaming platform",
+    date: "2026-02-22",
+    readTime: "6 min read",
+    category: "Cricket Tips",
+    excerpt:
+      "Everything a beginner needs to know about how to bet on live cricket matches online — from reading odds to placing your first in-play bet on Skyexchange1.",
+    image: imgCricket,
+    imageAlt: "how to bet on live cricket matches online guide skyexchange1.live",
+    body: [
+      {
+        type: "p",
+        text: "Live cricket betting (also called in-play betting) lets you place bets while the match is being played. Odds shift after every ball, which makes it more exciting — and more rewarding — than pre-match betting. Here's exactly how to bet on live cricket matches online in 2026 using the Skyexchange1 online platform.",
+      },
+      { type: "h2", text: "Step 1 — Get your Skyexchange1 ID" },
+      {
+        type: "p",
+        text: "Tap any WhatsApp button on skyexchange1.live. Our 24x7 team sends your username & password in under 60 seconds. No KYC paperwork, no waiting.",
+      },
+      { type: "h2", text: "Step 2 — Pick a live match" },
+      {
+        type: "p",
+        text: "After Skyexchange1 login, open the Cricket section. Look for matches with the red LIVE icon — IPL 2026, T20 internationals, county games and more.",
+      },
+      { type: "h2", text: "Step 3 — Read back vs lay odds" },
+      {
+        type: "ul",
+        items: [
+          "BACK — you bet FOR an outcome (e.g., team A wins)",
+          "LAY — you bet AGAINST an outcome (e.g., team A does NOT win)",
+          "Lower odds = higher probability, smaller payout",
+          "Higher odds = lower probability, bigger payout",
+        ],
+      },
+      { type: "h2", text: "Step 4 — Start with session bets" },
+      {
+        type: "p",
+        text: "Session bets settle every 6 overs and don't depend on the final result. They're perfect for beginners learning how to bet on live cricket matches online without risking large amounts.",
+      },
+      { type: "h2", text: "Step 5 — Withdraw via UPI" },
+      {
+        type: "p",
+        text: "Once you win, request a withdrawal on WhatsApp. Funds hit your PhonePe / GPay / Paytm in 5–10 minutes — fastest in the industry.",
+      },
+      {
+        type: "quote",
+        text: "Beginner rule: never stake more than 5% of your wallet on a single live bet. Bankroll management beats luck every time.",
+      },
+    ],
+  },
+  {
+    slug: "mobile-friendly-sports-betting-platforms-2026",
+    title: "Mobile Friendly Sports Betting Platforms 2026 — Why Skyexchange1 Wins",
+    description:
+      "Discover the most mobile friendly sports betting platforms in 2026. Learn what makes a sports gaming app online truly mobile-first and why Skyexchange1 leads in India.",
+    keywords:
+      "mobile friendly sports betting platforms, sports gaming app online, online betting website, skyexchange1 online platform",
+    date: "2026-02-12",
+    readTime: "5 min read",
+    category: "Platform Guide",
+    excerpt:
+      "Most Indian players bet from their phones. Here's what separates a truly mobile friendly sports betting platform from a bloated app — and why Skyexchange1 nails it.",
+    image: banner3,
+    imageAlt: "mobile friendly sports betting platforms 2026 skyexchange1.live",
+    body: [
+      {
+        type: "p",
+        text: "Over 90% of online betting in India happens on mobile in 2026. Yet most sports gaming app online options are still desktop-first sites awkwardly squeezed into a phone screen. Here's how to spot a truly mobile friendly sports betting platform — and why Skyexchange1 has become the go-to choice for Indian players.",
+      },
+      { type: "h2", text: "What makes a platform truly mobile friendly?" },
+      {
+        type: "ul",
+        items: [
+          "Loads in under 2 seconds on 4G",
+          "No app download required — works in any mobile browser",
+          "One-thumb navigation for live betting",
+          "UPI deposits & withdrawals built in (no card forms)",
+          "Live streaming that doesn't drain your battery",
+        ],
+      },
+      { type: "h2", text: "Why Skyexchange1 leads on mobile in 2026" },
+      { type: "h3", text: "Instant load on any phone" },
+      {
+        type: "p",
+        text: "skyexchange1.live is hosted on a fast Indian CDN. Whether you're on a flagship iPhone or a ₹10,000 Android, the site loads in under 2 seconds — even on patchy 4G.",
+      },
+      { type: "h3", text: "WhatsApp-first onboarding" },
+      {
+        type: "p",
+        text: "Forget 8-step signup forms. Tap a button, get your Skyexchange1 ID on WhatsApp in 60 seconds, and start betting. This is what every online betting website should feel like on mobile.",
+      },
+      { type: "h3", text: "UPI-native banking" },
+      {
+        type: "p",
+        text: "Deposits and withdrawals happen in PhonePe, GPay or Paytm — no card numbers, no OTPs from confusing payment gateways. Withdrawals settle in 5–10 minutes.",
+      },
+      {
+        type: "quote",
+        text: "If a sports gaming app online forces you to download a 200 MB APK before you can place a bet, walk away. Skyexchange1 needs zero downloads.",
+      },
+    ],
+  },
+  {
+    slug: "how-sports-betting-platforms-work-online",
+    title: "How Sports Betting Platforms Work Online — A 2026 Explainer",
+    description:
+      "Curious how sports betting platforms work online? This 2026 explainer breaks down odds, exchanges, settlements and how Skyexchange1 keeps Indian players safe.",
+    keywords:
+      "how sports betting platforms work online, sports betting platform online, online sports gaming platform, skyexchange1 online platform",
+    date: "2026-02-02",
+    readTime: "7 min read",
+    category: "Platform Guide",
+    excerpt:
+      "A clear, no-jargon explainer on how sports betting platforms work online in 2026 — odds, exchanges, settlements, and how Skyexchange1 fits into the picture.",
+    image: banner1,
+    imageAlt: "how sports betting platforms work online 2026 skyexchange1.live",
+    body: [
+      {
+        type: "p",
+        text: "Most Indian players use a sports betting platform online without ever knowing how it actually works behind the scenes. This 2026 explainer answers the most-Googled question — how sports betting platforms work online — in plain English, using the Skyexchange1 online platform as a real-world example.",
+      },
+      { type: "h2", text: "1. Bookmaker vs betting exchange" },
+      {
+        type: "p",
+        text: "A traditional bookmaker SETS the odds and you bet against the house. A betting exchange (like Skyexchange1) MATCHES players who disagree on an outcome — one backs, one lays. The platform takes a small commission on winnings instead of profiting from your loss.",
+      },
+      { type: "h2", text: "2. How live odds are calculated" },
+      {
+        type: "ul",
+        items: [
+          "Statistical models price the initial odds",
+          "User demand (back vs lay volume) shifts them in real time",
+          "Big news (toss, injury, weather) triggers instant repricing",
+          "Exchange odds are usually sharper than bookmaker odds",
+        ],
+      },
+      { type: "h2", text: "3. Deposits, bets and settlements" },
+      {
+        type: "ol",
+        items: [
+          "You deposit ₹ via UPI through your Skyexchange1 ID — funds appear in your wallet in seconds.",
+          "You place a bet — the stake is locked from your wallet immediately.",
+          "When the match ends, the platform's settlement engine pays out winners and debits losers automatically.",
+          "You request a withdrawal on WhatsApp — UPI payout in 5–10 minutes.",
+        ],
+      },
+      { type: "h2", text: "4. How safe online sports betting websites stay safe" },
+      {
+        type: "p",
+        text: "Trusted platforms like Skyexchange1 use SSL encryption, segregated player wallets, anti-fraud monitoring and 24x7 WhatsApp support. That combination is what separates a real online sports gaming platform from a fly-by-night site.",
+      },
+      {
+        type: "quote",
+        text: "Once you understand how sports betting platforms work online, you stop chasing bad odds and start betting smarter. Skyexchange1 is built around that principle.",
       },
     ],
   },
