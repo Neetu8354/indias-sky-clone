@@ -27,7 +27,7 @@ export const PromoSlider = () => {
                 key={idx}
                 className={`absolute inset-0 transition-opacity duration-700 ${idx === i ? "opacity-100" : "opacity-0"}`}
               >
-                <img src={s.img} alt={`${s.title} - play now and get rewards with skyexchange7.live`} className="w-full h-full object-cover" loading="lazy" />
+                <img src={s.img} alt={`${s.title} - play now and get rewards with skyexchange1.live`} className="w-full h-full object-cover" loading="lazy" />
                 <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/20 to-transparent" />
                 <div className="absolute inset-0 flex items-center">
                   <div className="container">
