@@ -9,7 +9,7 @@ import { applySeo } from "@/lib/seo";
 const Blog = () => {
   useEffect(() => {
     applySeo({
-      title: "Skyexchange7 Blog | Cricket Tips, Login Guides & Online Betting Insights",
+      title: "Skyexchange7 Blog | Cricket Tips & Login Guides",
       description:
         "Skyexchange7 blog — live cricket betting tips online, Sky Exchange Login guides step by step, and safe online sports betting platform reviews for India 2026.",
       canonical: "https://skyexchange7.live/blog",

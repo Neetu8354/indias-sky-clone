@@ -1,0 +1,33 @@
+# Skyexchange7
+
+> India's premium online cricket and casino playground — WhatsApp ID in 60 seconds, sub-2-second IPL odds, UPI deposits and 5-minute INR withdrawals, backed by 24×7 human support.
+
+Skyexchange7 (skyexchange7.live) is an INR-first sports gaming and live casino platform for Indian players. We cover live cricket markets (IPL, T20 World Cup, ODI, Test), Indian card games (Andar Bahar, Teen Patti, Lucky 7), crash games (Aviator), live dealer tables (Roulette, Baccarat, Dragon Tiger) and 1000+ slot titles. Onboarding, deposits and withdrawals happen over WhatsApp + UPI.
+
+## Pages
+
+- [Home](/): Overview of Skyexchange7 — cricket, casino, payouts and onboarding.
+- [Cricket](/cricket): Live cricket betting markets — IPL 2026, T20 World Cup, ODI, Test, BBL, PSL, CPL.
+- [Casino](/casino): 1000+ live casino games — Andar Bahar, Teen Patti, Aviator, Roulette, Dragon Tiger, Slots.
+- [About](/about): Who we are, our history since 2017, security and support standards.
+- [Contact](/contact): WhatsApp support, response times and contact channels.
+
+## Blog
+
+- [Skyexchange7 Blog](/blog): Cricket betting tips, login guides and online sports gaming insights for India.
+- [Skyexchange7 login guide step by step](/blog/skyexchange7-login-guide-step-by-step)
+- [Live cricket betting tips online](/blog/live-cricket-betting-tips-online)
+- [Safe online sports betting websites 2026](/blog/safe-online-sports-betting-websites-2026)
+- [How to win Aviator game on Skyexchange7](/blog/how-to-win-aviator-game-skyexchange7)
+- [Teen Patti vs Andar Bahar](/blog/teen-patti-vs-andar-bahar-skyexchange7)
+- [IPL 2026 betting guide](/blog/ipl-2026-betting-guide-skyexchange7)
+- [How to join an online sports gaming website](/blog/how-to-join-online-sports-gaming-website)
+- [Best cricket prediction sites online 2026](/blog/best-cricket-prediction-sites-online-2026)
+- [How to bet on live cricket matches online](/blog/how-to-bet-on-live-cricket-matches-online)
+- [Mobile-friendly sports betting platforms 2026](/blog/mobile-friendly-sports-betting-platforms-2026)
+- [How sports betting platforms work online](/blog/how-sports-betting-platforms-work-online)
+
+## Optional
+
+- [Sitemap](/sitemap.xml)
+- [Robots](/robots.txt)
