@@ -1,33 +1,33 @@
 import { WhatsAppButton } from "./WhatsAppButton";
 
 const STEPS = [
-  { n: "01", t: "Message on WhatsApp", d: "Tap the WhatsApp button — chat opens instantly." },
-  { n: "02", t: "Get Your ID & Password", d: "Our chatbot creates your secure ID in under a minute." },
-  { n: "03", t: "Deposit in ₹ via UPI", d: "Add funds using any Indian payment method." },
-  { n: "04", t: "Play & Withdraw", d: "Bet on cricket, casino & more. Withdraw to bank instantly." },
+  { n: "01", t: "Open WhatsApp", d: "Tap any green button. A real chat opens with our 24×7 onboarding team — no app, no forms." },
+  { n: "02", t: "Receive your ID", d: "We hand you a secure username and password in under 60 seconds. Save them, log in, you're inside." },
+  { n: "03", t: "Fund in ₹", d: "Top up via UPI, PhonePe, GPay, Paytm or Net Banking. Funds reflect instantly in your dashboard." },
+  { n: "04", t: "Play. Withdraw. Repeat.", d: "Bet on live cricket or pull up a table. Cash out to your bank in 5–10 minutes — no questions, no fees." },
 ];
 
 export const Steps = () => (
-  <section className="py-16">
+  <section className="py-20 md:py-32 border-y border-border/60 bg-gradient-noir">
     <div className="container">
-      <div className="text-center mb-12">
-        <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">How it works</div>
-        <h2 className="text-3xl md:text-4xl font-extrabold">
-          Get Your ID in <span className="text-gradient-gold">4 Easy Steps</span>
+      <div className="max-w-2xl mb-12 md:mb-16">
+        <div className="text-[10px] tracking-[0.3em] uppercase text-primary font-semibold mb-3">The journey</div>
+        <h2 className="text-3xl md:text-5xl font-semibold leading-[1.05]">
+          From "hi" to your first win — <span className="text-shimmer">under five minutes</span>.
         </h2>
       </div>
-      <div className="grid md:grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-border/50 rounded-3xl overflow-hidden border border-border/50">
         {STEPS.map((s) => (
-          <div key={s.n} className="relative p-6 rounded-2xl bg-gradient-card border border-border">
-            <div className="text-5xl font-extrabold text-gradient-gold mb-3">{s.n}</div>
-            <h3 className="text-lg font-bold mb-2">{s.t}</h3>
-            <p className="text-sm text-muted-foreground">{s.d}</p>
+          <div key={s.n} className="bg-background p-8 md:p-10 transition-colors hover:bg-card group">
+            <div className="text-xs tracking-[0.25em] text-primary mb-6">STEP {s.n}</div>
+            <h3 className="text-xl md:text-2xl font-semibold mb-3 text-foreground">{s.t}</h3>
+            <p className="text-sm text-muted-foreground leading-relaxed">{s.d}</p>
           </div>
         ))}
       </div>
-      <div className="text-center mt-10">
-        <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold">
-          Start Now on WhatsApp
+      <div className="mt-12 md:mt-16 text-center">
+        <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold h-14 px-10 rounded-full font-semibold">
+          Start on WhatsApp
         </WhatsAppButton>
       </div>
     </div>

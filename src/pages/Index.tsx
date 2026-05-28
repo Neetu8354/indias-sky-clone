@@ -1,17 +1,13 @@
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { Marquee } from "@/components/site/Marquee";
+import { Bento } from "@/components/site/Bento";
 import { About } from "@/components/site/About";
-import { WhyChoose } from "@/components/site/WhyChoose";
 import { Steps } from "@/components/site/Steps";
-import { GameSections } from "@/components/site/GameSections";
-import { Features } from "@/components/site/Features";
-import { MultiDevice } from "@/components/site/MultiDevice";
-import { Gameplay } from "@/components/site/Gameplay";
-import { Payments } from "@/components/site/Payments";
-import { PromoSlider } from "@/components/site/PromoSlider";
 import { Stats } from "@/components/site/Stats";
+import { PromoSlider } from "@/components/site/PromoSlider";
 import { Testimonials } from "@/components/site/Testimonials";
+import { Payments } from "@/components/site/Payments";
 import { FAQ } from "@/components/site/FAQ";
 import { Responsible } from "@/components/site/Responsible";
 import { CTA } from "@/components/site/CTA";
@@ -21,7 +17,7 @@ import { useEffect } from "react";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Skyexchange7 Login | Online Cricket & Casino ID | Play Fast in ₹";
+    document.title = "Skyexchange7 — India's Premium Cricket & Casino Playground in ₹";
     const ensure = (sel: string, attrs: Record<string, string>) => {
       let el = document.head.querySelector(sel) as HTMLElement | null;
       if (!el) {
@@ -30,16 +26,16 @@ const Index = () => {
       }
       Object.entries(attrs).forEach(([k, v]) => el!.setAttribute(k, v));
     };
-    ensure('meta[name="description"]', { name: "description", content: "Skyexchange7 — India's trusted online sports & casino platform. Get your Sky Exchange Login ID on WhatsApp, bet on IPL & live cricket, fast withdrawal, 24x7 support." });
+    ensure('meta[name="description"]', { name: "description", content: "Skyexchange7 is India's premium cricket & casino platform. WhatsApp ID in 60 seconds, sub-2-second IPL odds, UPI deposits and 5-minute INR withdrawals — backed by 24×7 human support." });
     ensure('link[rel="canonical"]', { rel: "canonical", href: "https://skyexchange7.live/" });
-    ensure('meta[property="og:title"]', { property: "og:title", content: "Skyexchange7 Login | Online Cricket & Casino ID | Play Fast in ₹" });
-    ensure('meta[property="og:description"]', { property: "og:description", content: "Get your Skyexchange7 ID instantly on WhatsApp. Live cricket betting, casino games, INR deposits & instant withdrawal. 24x7 support." });
+    ensure('meta[property="og:title"]', { property: "og:title", content: "Skyexchange7 — India's Premium Cricket & Casino Playground in ₹" });
+    ensure('meta[property="og:description"]', { property: "og:description", content: "WhatsApp ID in 60 seconds. Sub-2-second IPL odds. 5-minute INR withdrawals. Built for serious Indian players." });
     ensure('meta[property="og:type"]', { property: "og:type", content: "website" });
     ensure('meta[property="og:url"]', { property: "og:url", content: "https://skyexchange7.live/" });
     ensure('meta[property="og:image"]', { property: "og:image", content: "https://skyexchange7.live/og-image.jpg" });
     ensure('meta[name="twitter:image"]', { name: "twitter:image", content: "https://skyexchange7.live/og-image.jpg" });
-    ensure('meta[name="twitter:title"]', { name: "twitter:title", content: "Skyexchange7 Login | Online Cricket & Casino ID | Play Fast in ₹" });
-    ensure('meta[name="twitter:description"]', { name: "twitter:description", content: "Skyexchange7 — Sky Exchange Login for online cricket betting & live casino. Instant ID on WhatsApp." });
+    ensure('meta[name="twitter:title"]', { name: "twitter:title", content: "Skyexchange7 — India's Premium Cricket & Casino Playground in ₹" });
+    ensure('meta[name="twitter:description"]', { name: "twitter:description", content: "Premium cricket & casino in INR. 60-second WhatsApp onboarding, 5-minute payouts, sub-2-second live odds." });
   }, []);
 
   return (
@@ -47,17 +43,13 @@ const Index = () => {
       <Header />
       <Hero />
       <Marquee />
+      <Bento />
       <About />
-      <WhyChoose />
       <Steps />
-      <GameSections />
-      <Features />
-      <MultiDevice />
-      <Gameplay />
-      <Payments />
-      <PromoSlider />
       <Stats />
+      <PromoSlider />
       <Testimonials />
+      <Payments />
       <FAQ />
       <Responsible />
       <CTA />
