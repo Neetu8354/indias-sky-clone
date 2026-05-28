@@ -12,7 +12,7 @@ import hero from "@/assets/hero-cricket.jpg";
 const Cricket = () => {
   useEffect(() => {
     applySeo({
-      title: "Live Cricket Betting India 2026 | IPL, T20, ODI Markets | Skyexchange7",
+      title: "Live Cricket Betting India | IPL & T20 | Skyexchange7",
       description:
         "Bet on live cricket online in India — IPL 2026, T20 World Cup, ODI & Test markets on Skyexchange7. Lowest commission, fastest odds, instant ₹ withdrawals.",
       canonical: "https://skyexchange7.live/cricket",

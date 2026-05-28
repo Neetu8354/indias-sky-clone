@@ -15,9 +15,9 @@ import slots from "@/assets/sport-slots.jpg";
 const Casino = () => {
   useEffect(() => {
     applySeo({
-      title: "Live Casino India 2026 | Andar Bahar, Teen Patti, Aviator | Skyexchange7",
+      title: "Live Casino India | Teen Patti, Aviator | Skyexchange7",
       description:
-        "Play live casino games in India on Skyexchange7 — Andar Bahar, Teen Patti, Aviator, Roulette, Dragon Tiger and 1000+ titles. INR deposits, instant withdrawal, 24x7 support.",
+        "Play Andar Bahar, Teen Patti, Aviator, Roulette & 1000+ live casino games on Skyexchange7. INR deposits, instant withdrawal, 24x7 support.",
       canonical: "https://skyexchange7.live/casino",
       keywords:
         "live casino india, andar bahar online, teen patti, aviator game, dragon tiger, online sports gaming platform, skyexchange7 online platform, mobile friendly sports betting platforms",

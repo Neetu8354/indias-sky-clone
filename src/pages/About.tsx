@@ -10,9 +10,9 @@ import { applySeo } from "@/lib/seo";
 const About = () => {
   useEffect(() => {
     applySeo({
-      title: "About Skyexchange7 | India's Trusted Online Sports Gaming Platform 2026",
+      title: "About Skyexchange7 | India's Trusted Gaming Site 2026",
       description:
-        "About Skyexchange7 (Sky Exchange Login) — India's leading online sports gaming platform since 2017. 10L+ players, 1000+ games, instant ₹ withdrawals, 24x7 WhatsApp support.",
+        "About Skyexchange7 — India's trusted cricket & casino site since 2017. 10L+ players, 1000+ games, instant ₹ withdrawals, 24x7 WhatsApp.",
       canonical: "https://skyexchange7.live/about",
       keywords:
         "about skyexchange7, sky exchange login, online sports gaming platform, sports betting platform online, skyexchange7 online platform",
