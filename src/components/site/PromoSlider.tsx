@@ -1,14 +1,32 @@
 import { useEffect, useState } from "react";
-import promo1 from "@/assets/promo-1.jpg";
-import promo2 from "@/assets/promo-2.jpg";
-import promo3 from "@/assets/promo-3.jpg";
+import cricketImg from "@/assets/bento-cricket.jpg";
+import casinoImg from "@/assets/bento-casino.jpg";
+import paymentsImg from "@/assets/bento-payments.jpg";
 import { WhatsAppButton } from "./WhatsAppButton";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SLIDES = [
-  { img: promo1, title: "IPL 2026 — Bigger Hits, Bigger Wins", cta: "Play IPL Now" },
-  { img: promo2, title: "Live Casino — Roulette, Cards & More", cta: "Enter Casino" },
-  { img: promo3, title: "WhatsApp Instant ID in Seconds", cta: "Message Now" },
+  {
+    img: cricketImg,
+    eyebrow: "IPL 2026",
+    title: "Bigger hits.\nBigger wins.",
+    sub: "Sub-2-second odds on every match. Match winner, session runs, top batsman, fall of wicket — all live.",
+    cta: "Play IPL 2026",
+  },
+  {
+    img: casinoImg,
+    eyebrow: "Live Casino",
+    title: "Real dealers.\nReal tables.\nReal time.",
+    sub: "Teen Patti, Andar Bahar, Roulette, Dragon Tiger — streamed in HD, dealt 24×7 by professional croupiers.",
+    cta: "Enter the floor",
+  },
+  {
+    img: paymentsImg,
+    eyebrow: "WhatsApp Onboarding",
+    title: "Your ID,\nin 60 seconds.",
+    sub: "Skip the forms. Skip the queues. Message us once — we hand you a secure ID, ready to play in INR.",
+    cta: "Message now",
+  },
 ];
 
 export const PromoSlider = () => {
@@ -18,22 +36,35 @@ export const PromoSlider = () => {
     return () => clearInterval(t);
   }, []);
   return (
-    <section id="promotions" className="py-10 md:py-14">
+    <section id="promotions" className="py-16 md:py-24">
       <div className="container">
-        <div className="relative rounded-2xl overflow-hidden border border-border shadow-gold group">
-          <div className="relative aspect-[21/9] md:aspect-[24/9]">
+        <div className="relative rounded-3xl overflow-hidden border border-border/60 shadow-elegant group">
+          <div className="relative aspect-[16/10] md:aspect-[21/9]">
             {SLIDES.map((s, idx) => (
               <div
                 key={idx}
-                className={`absolute inset-0 transition-opacity duration-700 ${idx === i ? "opacity-100" : "opacity-0"}`}
+                className={`absolute inset-0 transition-opacity duration-1000 ${idx === i ? "opacity-100" : "opacity-0"}`}
               >
-                <img src={s.img} alt={`${s.title} - play now and get rewards with skyexchange7.live`} className="w-full h-full object-cover" loading="lazy" />
-                <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/20 to-transparent" />
+                <img
+                  src={s.img}
+                  alt={`${s.eyebrow} on Skyexchange7`}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/20" />
                 <div className="absolute inset-0 flex items-center">
                   <div className="container">
-                    <div className="max-w-md">
-                      <h3 className="text-2xl md:text-4xl font-extrabold mb-4 text-gradient-gold">{s.title}</h3>
-                      <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
+                    <div className="max-w-xl animate-fade-up">
+                      <div className="text-[10px] tracking-[0.3em] uppercase text-primary font-semibold mb-4">
+                        {s.eyebrow}
+                      </div>
+                      <h3 className="text-3xl md:text-5xl lg:text-6xl font-semibold mb-5 whitespace-pre-line leading-[1.05]">
+                        <span className="text-shimmer">{s.title}</span>
+                      </h3>
+                      <p className="text-sm md:text-base text-muted-foreground mb-7 font-light leading-relaxed max-w-md">
+                        {s.sub}
+                      </p>
+                      <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold h-12 px-8 rounded-full font-semibold">
                         {s.cta}
                       </WhatsAppButton>
                     </div>
@@ -45,25 +76,25 @@ export const PromoSlider = () => {
 
           <button
             onClick={() => setI((p) => (p - 1 + SLIDES.length) % SLIDES.length)}
-            className="absolute left-3 top-1/2 -translate-y-1/2 bg-background/70 hover:bg-primary/80 text-primary hover:text-primary-foreground p-2 rounded-full opacity-0 group-hover:opacity-100 transition"
+            className="absolute left-4 top-1/2 -translate-y-1/2 glass-card hover:bg-primary/80 text-primary hover:text-primary-foreground p-3 rounded-full opacity-0 group-hover:opacity-100 transition"
             aria-label="Previous slide"
           >
-            <ChevronLeft />
+            <ChevronLeft className="h-5 w-5" />
           </button>
           <button
             onClick={() => setI((p) => (p + 1) % SLIDES.length)}
-            className="absolute right-3 top-1/2 -translate-y-1/2 bg-background/70 hover:bg-primary/80 text-primary hover:text-primary-foreground p-2 rounded-full opacity-0 group-hover:opacity-100 transition"
+            className="absolute right-4 top-1/2 -translate-y-1/2 glass-card hover:bg-primary/80 text-primary hover:text-primary-foreground p-3 rounded-full opacity-0 group-hover:opacity-100 transition"
             aria-label="Next slide"
           >
-            <ChevronRight />
+            <ChevronRight className="h-5 w-5" />
           </button>
 
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
             {SLIDES.map((_, idx) => (
               <button
                 key={idx}
                 onClick={() => setI(idx)}
-                className={`h-2 rounded-full transition-all ${idx === i ? "bg-primary w-8" : "bg-foreground/40 w-2"}`}
+                className={`h-1.5 rounded-full transition-all ${idx === i ? "bg-primary w-10" : "bg-foreground/30 w-1.5"}`}
                 aria-label={`Go to slide ${idx + 1}`}
               />
             ))}
