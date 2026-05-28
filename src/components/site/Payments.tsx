@@ -3,26 +3,30 @@ import { ShieldCheck } from "lucide-react";
 const METHODS = ["UPI", "PhonePe", "Google Pay", "Paytm", "Net Banking", "Visa", "Mastercard", "Bank Transfer"];
 
 export const Payments = () => (
-  <section className="py-16">
+  <section className="py-20 md:py-28 border-y border-border/60">
     <div className="container">
-      <div className="text-center mb-10">
-        <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">Secure Payments</div>
-        <h2 className="text-3xl md:text-4xl font-extrabold">
-          Multiple <span className="text-gradient-gold">trusted payment</span> methods
+      <div className="text-center mb-12 max-w-2xl mx-auto">
+        <div className="text-[10px] tracking-[0.3em] uppercase text-primary font-semibold mb-3">Money, moved properly</div>
+        <h2 className="text-3xl md:text-5xl font-semibold leading-[1.05]">
+          Every Indian rail. <span className="text-shimmer">Zero friction.</span>
         </h2>
-        <p className="text-muted-foreground mt-3 max-w-2xl mx-auto">
-          All transactions protected with 256-bit SSL encryption. Deposits & withdrawals always in ₹.
+        <p className="text-muted-foreground mt-5 font-light leading-relaxed">
+          Deposit through the method you already trust. Withdraw to your bank in 5–10 minutes — every time.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center gap-3 mb-8">
+      <div className="flex flex-wrap justify-center gap-2.5 md:gap-3 mb-10">
         {METHODS.map((m) => (
-          <span key={m} className="px-4 py-2 rounded-full bg-gradient-card border border-border text-sm font-semibold">
+          <span
+            key={m}
+            className="px-5 py-2.5 rounded-full glass-card text-sm font-medium text-foreground/85 hover:border-primary/40 transition-colors"
+          >
             {m}
           </span>
         ))}
       </div>
-      <div className="flex items-center justify-center gap-2 text-sm text-primary">
-        <ShieldCheck className="h-5 w-5" /> 256-bit SSL Encrypted · Funds & data fully protected
+      <div className="flex items-center justify-center gap-2.5 text-xs tracking-wide text-muted-foreground">
+        <ShieldCheck className="h-4 w-4 text-primary" />
+        256-bit SSL · Segregated funds · PCI-compliant rails
       </div>
     </div>
   </section>
