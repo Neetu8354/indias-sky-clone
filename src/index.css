@@ -2,64 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* SkyExch-inspired design system — dark + gold premium */
+/* Skyexchange7 — Noir & Gold refined design system. Sora + Manrope. */
 @layer base {
   :root {
-    --background: 0 0% 4%;
-    --foreground: 45 30% 96%;
+    --background: 0 0% 5%;
+    --foreground: 45 25% 96%;
 
-    --card: 0 0% 7%;
-    --card-foreground: 45 30% 96%;
+    --card: 0 0% 8%;
+    --card-foreground: 45 25% 96%;
 
-    --popover: 0 0% 6%;
-    --popover-foreground: 45 30% 96%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 45 25% 96%;
 
-    --primary: 43 74% 52%;
-    --primary-foreground: 0 0% 6%;
+    --primary: 43 65% 56%;
+    --primary-foreground: 0 0% 5%;
 
-    --primary-glow: 45 95% 65%;
+    --primary-glow: 44 85% 72%;
 
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 45 30% 96%;
+    --secondary: 0 0% 9%;
+    --secondary-foreground: 45 25% 96%;
 
-    --muted: 0 0% 12%;
-    --muted-foreground: 45 10% 70%;
+    --muted: 0 0% 11%;
+    --muted-foreground: 40 8% 65%;
 
-    --accent: 43 74% 52%;
-    --accent-foreground: 0 0% 6%;
+    --accent: 43 65% 56%;
+    --accent-foreground: 0 0% 5%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 43 30% 18%;
-    --input: 43 30% 18%;
-    --ring: 43 74% 52%;
+    --border: 43 20% 15%;
+    --input: 43 20% 15%;
+    --ring: 43 65% 56%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    --gold: 43 74% 52%;
-    --gold-light: 45 95% 65%;
-    --gold-dark: 38 60% 35%;
+    --gold: 43 65% 56%;
+    --gold-light: 44 85% 72%;
+    --gold-dark: 38 55% 38%;
 
-    --gradient-gold: linear-gradient(135deg, hsl(38 60% 38%) 0%, hsl(43 74% 52%) 50%, hsl(45 95% 70%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(0 0% 4% / 0.2) 0%, hsl(0 0% 4% / 0.85) 100%);
-    --gradient-card: linear-gradient(160deg, hsl(0 0% 9%) 0%, hsl(0 0% 5%) 100%);
-    --shadow-gold: 0 10px 40px -10px hsl(43 74% 52% / 0.4);
-    --shadow-glow: 0 0 60px hsl(45 95% 65% / 0.25);
+    --gradient-gold: linear-gradient(135deg, hsl(38 55% 42%) 0%, hsl(43 70% 58%) 50%, hsl(44 85% 75%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(0 0% 5% / 0.1) 0%, hsl(0 0% 5% / 0.55) 55%, hsl(0 0% 5%) 100%);
+    --gradient-card: linear-gradient(160deg, hsl(0 0% 10%) 0%, hsl(0 0% 6%) 100%);
+    --gradient-noir: radial-gradient(ellipse at top, hsl(43 30% 12% / 0.4) 0%, hsl(0 0% 5%) 60%);
+    --shadow-gold: 0 20px 60px -20px hsl(43 65% 56% / 0.35);
+    --shadow-glow: 0 0 80px hsl(44 85% 72% / 0.18);
+    --shadow-elegant: 0 1px 0 0 hsl(43 65% 56% / 0.08) inset, 0 30px 80px -30px hsl(0 0% 0% / 0.9);
 
     --sidebar-background: 0 0% 6%;
-    --sidebar-foreground: 45 30% 96%;
-    --sidebar-primary: 43 74% 52%;
-    --sidebar-primary-foreground: 0 0% 6%;
+    --sidebar-foreground: 45 25% 96%;
+    --sidebar-primary: 43 65% 56%;
+    --sidebar-primary-foreground: 0 0% 5%;
     --sidebar-accent: 0 0% 10%;
-    --sidebar-accent-foreground: 45 30% 96%;
-    --sidebar-border: 43 30% 18%;
-    --sidebar-ring: 43 74% 52%;
+    --sidebar-accent-foreground: 45 25% 96%;
+    --sidebar-border: 43 20% 15%;
+    --sidebar-ring: 43 65% 56%;
   }
 
   .dark {
-    --background: 0 0% 4%;
-    --foreground: 45 30% 96%;
+    --background: 0 0% 5%;
+    --foreground: 45 25% 96%;
   }
 }
 
@@ -67,11 +69,14 @@
   * { @apply border-border; }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-feature-settings: 'ss01', 'cv11';
+    -webkit-font-smoothing: antialiased;
   }
   h1, h2, h3, h4 {
-    font-family: 'Poppins', 'Inter', sans-serif;
-    @apply font-bold tracking-tight;
+    font-family: 'Sora', 'Manrope', sans-serif;
+    @apply font-semibold tracking-tight;
+    letter-spacing: -0.02em;
   }
 }
 
@@ -85,8 +90,22 @@
   .bg-gradient-gold { background: var(--gradient-gold); }
   .shadow-gold { box-shadow: var(--shadow-gold); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
+  .shadow-elegant { box-shadow: var(--shadow-elegant); }
   .bg-gradient-card { background: var(--gradient-card); }
   .bg-gradient-hero { background: var(--gradient-hero); }
+  .bg-gradient-noir { background: var(--gradient-noir); }
+
+  .hairline-gold {
+    background-image: linear-gradient(90deg, transparent, hsl(var(--primary) / 0.5), transparent);
+    height: 1px;
+  }
+
+  .glass-card {
+    background: linear-gradient(160deg, hsl(0 0% 12% / 0.6) 0%, hsl(0 0% 6% / 0.6) 100%);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid hsl(43 30% 22% / 0.35);
+  }
 
   @keyframes float-slow {
     0%, 100% { transform: translateY(0); }
@@ -105,4 +124,23 @@
     to { transform: translateX(-50%); }
   }
   .animate-marquee { animation: marquee 30s linear infinite; }
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-up { animation: fade-up 0.7s ease-out both; }
+
+  @keyframes shimmer-gold {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  .text-shimmer {
+    background: linear-gradient(90deg, hsl(43 50% 65%) 0%, hsl(44 90% 80%) 25%, hsl(43 50% 65%) 50%, hsl(44 90% 80%) 75%, hsl(43 50% 65%) 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shimmer-gold 6s linear infinite;
+  }
 }
