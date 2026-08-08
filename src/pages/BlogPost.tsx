@@ -13,7 +13,7 @@ const BlogPost = () => {
 
   useEffect(() => {
     if (!post) return;
-    const url = `https://skyexchange7.live/blog/${post.slug}`;
+    const url = `https://www.skyexchange7.live/blog/${post.slug}`;
     applySeo({
       title: `${post.title} | Skyexchange7`,
       description: post.description,
@@ -34,18 +34,18 @@ const BlogPost = () => {
             name: "Skyexchange7",
             logo: {
               "@type": "ImageObject",
-              url: "https://skyexchange7.live/favicon.png",
+              url: "https://www.skyexchange7.live/favicon.png",
             },
           },
           mainEntityOfPage: { "@type": "WebPage", "@id": url },
-          image: "https://skyexchange7.live/og-image.jpg",
+          image: "https://www.skyexchange7.live/og-image.jpg",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchange7.live/" },
-            { "@type": "ListItem", position: 2, name: "Blog", item: "https://skyexchange7.live/blog" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchange7.live/" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.skyexchange7.live/blog" },
             { "@type": "ListItem", position: 3, name: post.title, item: url },
           ],
         },
