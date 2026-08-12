@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link, useParams, Navigate } from "react-router-dom";
 import { getPostBySlug, BLOG_POSTS } from "@/data/blogPosts";
-import { BlogHeader } from "@/components/site/BlogHeader";
+import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
@@ -59,7 +59,7 @@ const BlogPost = () => {
 
   return (
     <main className="min-h-screen bg-background">
-      <BlogHeader />
+      <Header />
 
       <article className="container py-10 md:py-16 max-w-3xl">
         <nav aria-label="Breadcrumb" className="text-xs text-muted-foreground mb-6">

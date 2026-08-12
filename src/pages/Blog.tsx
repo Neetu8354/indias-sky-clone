@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { BLOG_POSTS } from "@/data/blogPosts";
-import { BlogHeader } from "@/components/site/BlogHeader";
+import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { applySeo } from "@/lib/seo";
@@ -12,21 +12,21 @@ const Blog = () => {
       title: "Skyexchange7 Blog | Cricket Tips & Login Guides",
       description:
         "Skyexchange7 blog — live cricket betting tips online, Sky Exchange Login guides step by step, and safe online sports betting platform reviews for India 2026.",
-      canonical: "https://skyexchange7.live/blog",
+      canonical: "https://www.skyexchange7.live/blog",
       keywords:
         "skyexchange7 blog, live cricket betting tips online, sky exchange login guide, safe online sports betting websites 2026, online sports gaming platform",
       jsonLd: {
         "@context": "https://schema.org",
         "@type": "Blog",
         name: "Skyexchange7 Blog",
-        url: "https://skyexchange7.live/blog",
+        url: "https://www.skyexchange7.live/blog",
         description:
           "Cricket betting tips, Sky Exchange Login guides and online sports gaming platform insights for Indian players.",
         blogPost: BLOG_POSTS.map((p) => ({
           "@type": "BlogPosting",
           headline: p.title,
           datePublished: p.date,
-          url: `https://skyexchange7.live/blog/${p.slug}`,
+          url: `https://www.skyexchange7.live/blog/${p.slug}`,
           description: p.description,
         })),
       },
@@ -35,7 +35,7 @@ const Blog = () => {
 
   return (
     <main className="min-h-screen bg-background">
-      <BlogHeader />
+      <Header />
 
       <section className="container py-12 md:py-16">
         <div className="max-w-3xl">

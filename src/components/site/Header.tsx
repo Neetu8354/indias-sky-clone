@@ -113,7 +113,7 @@ export const Header = () => {
           </span>
           <span className="flex flex-col leading-none">
             <span className="text-lg md:text-2xl font-extrabold tracking-tight text-gradient-gold">
-              SKYEXCHANGE
+              SKYEXCHANGE7
             </span>
             <span className="hidden md:inline text-[10px] font-medium tracking-[0.18em] text-muted-foreground uppercase mt-0.5">
               Cricket • Casino • Live
