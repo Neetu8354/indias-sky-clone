@@ -18,16 +18,8 @@ const NAV = [
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const onHome = location.pathname === "/";
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   // close mobile menu on route change
   useEffect(() => {
@@ -85,12 +77,7 @@ export const Header = () => {
 
   return (
     <header
-      className={cn(
-        "sticky top-0 z-50 transition-all duration-300 border-b",
-        scrolled
-          ? "backdrop-blur-xl bg-background/80 border-border/80 shadow-[0_4px_24px_-12px_hsl(var(--primary)/0.35)]"
-          : "backdrop-blur-md bg-background/60 border-transparent"
-      )}
+      className="sticky top-0 z-50 transition-all duration-300 border-b backdrop-blur-xl bg-background/85 border-border/80 shadow-[0_4px_24px_-12px_hsl(var(--primary)/0.35)]"
     >
       {/* Top accent line */}
       <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
