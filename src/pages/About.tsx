@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ShieldCheck, Trophy, Users, Wallet, Headphones, Zap } from "lucide-react";
-import { BlogHeader } from "@/components/site/BlogHeader";
+import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
@@ -13,7 +13,7 @@ const About = () => {
       title: "About Skyexchange7 | India's Trusted Gaming Site 2026",
       description:
         "About Skyexchange7 — India's trusted cricket & casino site since 2017. 10L+ players, 1000+ games, instant ₹ withdrawals, 24x7 WhatsApp.",
-      canonical: "https://skyexchange7.live/about",
+      canonical: "https://www.skyexchange7.live/about",
       keywords:
         "about skyexchange7, sky exchange login, online sports gaming platform, sports betting platform online, skyexchange7 online platform",
       jsonLd: [
@@ -21,7 +21,7 @@ const About = () => {
           "@context": "https://schema.org",
           "@type": "AboutPage",
           name: "About Skyexchange7",
-          url: "https://skyexchange7.live/about",
+          url: "https://www.skyexchange7.live/about",
           description:
             "Learn about Skyexchange7 — India's trusted online cricket and casino gaming platform.",
         },
@@ -29,8 +29,8 @@ const About = () => {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchange7.live/" },
-            { "@type": "ListItem", position: 2, name: "About", item: "https://skyexchange7.live/about" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchange7.live/" },
+            { "@type": "ListItem", position: 2, name: "About", item: "https://www.skyexchange7.live/about" },
           ],
         },
       ],
@@ -55,7 +55,7 @@ const About = () => {
 
   return (
     <main className="min-h-screen bg-background">
-      <BlogHeader />
+      <Header />
 
       <section className="container py-12 md:py-20">
         <nav aria-label="Breadcrumb" className="text-xs text-muted-foreground mb-6">

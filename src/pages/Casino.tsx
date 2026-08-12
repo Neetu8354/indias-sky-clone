@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Dice5, Spade, Plane, Crown } from "lucide-react";
-import { BlogHeader } from "@/components/site/BlogHeader";
+import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
@@ -18,7 +18,7 @@ const Casino = () => {
       title: "Live Casino India | Teen Patti, Aviator | Skyexchange7",
       description:
         "Play Andar Bahar, Teen Patti, Aviator, Roulette & 1000+ live casino games on Skyexchange7. INR deposits, instant withdrawal, 24x7 support.",
-      canonical: "https://skyexchange7.live/casino",
+      canonical: "https://www.skyexchange7.live/casino",
       keywords:
         "live casino india, andar bahar online, teen patti, aviator game, dragon tiger, online sports gaming platform, skyexchange7 online platform, mobile friendly sports betting platforms",
       jsonLd: [
@@ -26,15 +26,15 @@ const Casino = () => {
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Live Casino on Skyexchange7",
-          url: "https://skyexchange7.live/casino",
+          url: "https://www.skyexchange7.live/casino",
           description: "1000+ live casino games on the Skyexchange7 online platform — playable in INR.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchange7.live/" },
-            { "@type": "ListItem", position: 2, name: "Casino", item: "https://skyexchange7.live/casino" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchange7.live/" },
+            { "@type": "ListItem", position: 2, name: "Casino", item: "https://www.skyexchange7.live/casino" },
           ],
         },
       ],
@@ -61,7 +61,7 @@ const Casino = () => {
 
   return (
     <main className="min-h-screen bg-background">
-      <BlogHeader />
+      <Header />
 
       <section className="relative border-b border-border">
         <div className="container py-12 md:py-20">

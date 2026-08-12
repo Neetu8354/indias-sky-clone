@@ -14,7 +14,7 @@ export const BlogHeader = () => (
           className="h-10 w-10 object-contain"
         />
         <span className="text-xl md:text-2xl font-extrabold tracking-tight text-gradient-gold">
-          SKYEXCHANGE
+          SKYEXCHANGE7
         </span>
       </Link>
       <nav className="hidden md:flex items-center gap-8">

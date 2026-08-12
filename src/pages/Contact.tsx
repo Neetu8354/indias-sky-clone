@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { MessageCircle, Clock, ShieldCheck, Headphones } from "lucide-react";
-import { BlogHeader } from "@/components/site/BlogHeader";
+import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
@@ -14,7 +14,7 @@ const Contact = () => {
       title: "Contact Skyexchange7 | 24x7 WhatsApp Support for Sky Exchange Login",
       description:
         "Contact Skyexchange7 24x7 on WhatsApp for Sky Exchange Login help, ID creation, deposit & withdrawal support. Real human support, replies in under 60 seconds.",
-      canonical: "https://skyexchange7.live/contact",
+      canonical: "https://www.skyexchange7.live/contact",
       keywords:
         "contact skyexchange7, skyexchange7 support, sky exchange login support, whatsapp cricket id, online betting website india",
       jsonLd: [
@@ -22,15 +22,15 @@ const Contact = () => {
           "@context": "https://schema.org",
           "@type": "ContactPage",
           name: "Contact Skyexchange7",
-          url: "https://skyexchange7.live/contact",
+          url: "https://www.skyexchange7.live/contact",
           description: "Get 24x7 support for Skyexchange7 login, deposits, withdrawals and account help.",
         },
         {
           "@context": "https://schema.org",
           "@type": "Organization",
           name: "Skyexchange7",
-          url: "https://skyexchange7.live/",
-          logo: "https://skyexchange7.live/favicon.png",
+          url: "https://www.skyexchange7.live/",
+          logo: "https://www.skyexchange7.live/favicon.png",
           contactPoint: [
             {
               "@type": "ContactPoint",
@@ -63,7 +63,7 @@ const Contact = () => {
 
   return (
     <main className="min-h-screen bg-background">
-      <BlogHeader />
+      <Header />
 
       <section className="container py-12 md:py-20">
         <nav aria-label="Breadcrumb" className="text-xs text-muted-foreground mb-6">
